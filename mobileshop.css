@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+.clear{
+	clear: both;
+}
+.khong{
+	width: 300px;
+  	padding-bottom: 30px;
+    float: left;
+}
+	
+.logo{
+	margin-top: 2px;
+	clear: both;
+	
+	}	
+.tensp{
+	margin-bottom: 20px;
+	clear: both;
+}
+.tensp:hover img{
+	color:red;
+}
+.mot{
+
+    float: left;
+
+}
+.mot img:hover{
+	border: #459BB1 2px solid;
+
+
+}
+a{
+	color: black;
+
+}
+a:hover{
+	color: grey;
+}
+p{
+	text-align: center;
+}
+.mot{
+	max-width: 1000px;
+	margin: auto;
+	height: 500px;
+}
+.wrap {
+	margin: auto;
+	max-width: 1000px;
+}
