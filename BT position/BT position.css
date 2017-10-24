@@ -1,0 +1,45 @@
+body{
+	max-width: 1100px;
+	margin: auto;
+	position: relative;
+		}
+
+.banner img{
+		display: block;
+		margin: auto;
+		margin-bottom: 200px;
+			}
+.picture div {
+	float: left;
+			}
+.picture img{
+		
+			width: 500px;
+			height: 500px;
+			padding: 5px;
+
+			}
+.menu{
+	border: 1px solid #469DBD;
+	margin-bottom: 50px;
+	width: 300px;
+	padding-left: 30px;
+	position: absolute;
+	top: 363px;
+    left: 0px;
+}
+a{
+	color: #25AF9D
+}
+a:hover{
+	color: #F46645
+}
+#chat{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
+#chat img{
+	width: 30px;
+	height: 30px;
+}
