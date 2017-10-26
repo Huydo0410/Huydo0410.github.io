@@ -1,0 +1,92 @@
+@keyframes title {
+    0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #4DE21C;}
+    50%  {background-color: #9F6164; color: #FF0000;}
+    75%  {background-color: #44B3C2; color: #7FFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+img{
+height: 300px;
+width: 100%;
+}
+
+h1{
+	text-align: center;
+	background: red;
+	animation: title 10s ease infinite;
+}
+@keyframes a {
+    0%  {color: #F9E559;}
+    25%  {color: #4DE21C;}
+    50%  {color: #FF0000;}
+    75%  {color: #7FFFFF;}
+    100% {color: #F9E559;}
+}
+.menu a{
+	animation: a 10s ease infinite;
+
+}
+
+@keyframes bike {
+	0% { opacity: 0; }
+	25%{ opacity: 0.5; }
+	50%{ opacity: 1; }
+	75%{ opacity: 0.5; }
+	100%{ opacity: 0; }
+}
+.bike{
+
+	width: 45%;
+	float: left;
+	margin: 10px;
+	transition: all 0.5s ease;
+	
+
+}
+
+
+.bike:hover {
+	transform: translate(0, -5px);
+	animation: bike 6s ease infinite;
+	
+}
+
+
+.xe {
+	width: 1000px;
+	margin: auto;
+
+}
+
+
+a{
+	color: #57007F;
+	margin: 25px;
+	text-transform: uppercase;
+		
+}
+
+a:hover{
+	color: #FB7657;
+
+}
+
+.menu{
+	text-align: center;
+
+}
+
+
+#clear{
+	clear: both;
+}
+.id{
+	height: 50px;
+	animation: id 5s ease infinite;
+	float: right;
+	margin-right: 50px;
+	padding-right: 50px;
+}
+@keyframes id {
+	0% { transform:translate(200px, 0px) }
+
