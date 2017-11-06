@@ -1,0 +1,232 @@
+html{
+	background-color: #aad6d8;
+	background-image: url("10.png");
+}
+body{
+	overflow-y: scroll;
+}
+.no-float {
+	clear: both;
+}
+.body{
+
+	width: 1200px;
+	margin: auto;
+	background-color: white;
+	
+}
+a{
+	color: #C44646;
+	text-decoration: none;
+	font-size: larger;
+}
+.banner{
+	box-sizing: border-box;
+	width: 250px;
+	padding: 5px;
+	float: left;
+	height: 131px;
+	text-align: center;
+	transition: all 0.8s linear;
+}
+.clear{
+	clear: both;
+}
+.banner:hover{
+	transform:scale(0.8);
+}
+.banner2 img{
+	height: 131px;
+	width: 950px;
+	margin: auto;
+
+}
+.make{
+	transition: all 0.4s linear;
+}
+.make:hover{
+	transform: scale(1.5);
+}
+
+h2{
+	text-align: center;
+	color: #01b3ad;
+	text-transform: uppercase;
+}
+.item{
+	text-transform: uppercase;
+
+	width: 100%;
+
+}
+.item > li {
+	float: left;
+	list-style-type: none;
+	font-weight: 600;
+	color: #333;
+
+}
+.item > li > ul {
+	list-style-type: none;
+	display: none;
+}
+.item > li:hover > ul {
+	display: block;
+}
+
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+.item > li {
+
+	list-style: none;
+	width: 20%;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	text-align: center;
+	padding-top: 5px;
+	background-color: #c4e3e4;
+
+}
+.banner3 img{
+	width: 100%;
+
+}
+.banner3> img> style{
+	position: fixed;
+	top: 277px;
+	left: 70px;
+}
+.about{
+	width: 100%;
+	margin: auto;
+}
+.menu2{
+	position: relative;
+}
+.menu3{
+	position: absolute;
+	width: 100%;
+
+}
+.menu3 li{
+	padding: 5px;
+	background-color: #c4e3e4;
+}
+
+.birthday img{
+	width: 200px;
+	height: 200px; 
+
+}
+.a1 img{
+	vertical-align: middle;	
+	transition: all 0.5s linear;
+
+}
+.a1:hover img{
+	transform: translate(0, -7px);
+	opacity: 0.8;
+}
+div .birthday{
+	text-align: center;
+	width: 900px;
+	height: 600px;
+	margin: auto;
+}
+
+.wedding img{
+	width: 200px;
+	height: 200px;
+
+}
+div .wedding{
+	text-align: center;
+	width: 900px;
+	margin: auto;
+	height: 600px;
+}
+.cup img{
+	width: 200px;
+	height: 200px; 
+
+	
+}
+div .cup{
+	text-align: center;
+	width: 900px;
+	margin: auto;
+	height: 600px;
+}
+.choco img{
+	width: 200px;
+	height: 200px;
+
+
+}
+div .choco{
+	text-align: center;
+	width: 900px;
+	margin: auto;
+	height: 600px;
+}	
+p{
+	color: black;
+	margin: 0;
+	font-weight: 500;
+	padding-top: 2px;
+	text-transform: capitalize;
+}
+hr{
+	width: 75%;
+}
+
+.a1{
+	box-sizing: border-box;
+	width: 300px;
+	float: left;
+	margin-bottom: 25px;
+}
+.none{
+	clear: both;
+}
+.post{
+	padding: 10px;
+	
+
+}
+.down{
+	background-color: #01B3AD;
+	text-align: center;
+	padding:40px;
+}
+.down h2{
+	color: #fff;
+}
+.down p{
+	color: #fff;
+	padding-bottom: 20px;
+}
+.down a{
+	border: 1px solid #fff;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 20px;
+}
+#root{
+	width: 100%;
+	height: 185px;
+	text-align: center;
+	margin: auto;	
+}
+#rab{
+	width: 33.33%;
+	float: left;
+	padding-top: 10px;
+}
+#rab h3{
+	text-transform: uppercase;
+}
