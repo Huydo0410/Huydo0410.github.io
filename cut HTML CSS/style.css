@@ -1,0 +1,242 @@
+body{
+		text-align: center;
+}
+.header{
+	display: inline-flex;
+}
+.section{
+	display: inline-block;
+
+}
+.banner{
+	position: relative;
+}
+.logo{
+	position: absolute;
+	font-family: Segoe UI;
+	font-size: 24px;
+	color: c44c4c;
+	top: 51px;
+    left: 70px;
+}
+.login{
+    position: absolute;
+    font-family: Segoe UI;
+    color: 636262;
+    font-size: 14px;
+    top: 46px;
+    right: 170px;
+    
+}
+.search{
+    position: absolute;
+    color: 636262;
+    top: 48.5px;
+    right: 75px;
+}
+.search>img{
+    width: 9%;
+    height: 2.5%;
+}
+.cart{
+    position: absolute;
+    color: 636262;
+    top: 41.5px;
+    right: -150px;
+}
+.cart>img{
+    width: 4%;
+    height: 4%;
+}
+.menu{
+	position: relative;
+}
+.menu1{
+	position: absolute;
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: ffffff;
+	text-transform: uppercase;
+}
+.home{
+    top: 164.5px;
+    right: 291px;
+}
+.about{
+    top: 164.5px;
+    right: 80px;
+}
+.menperfume{
+    top: 287px;
+    right: 257px;
+}
+.womenperfume{
+    top: 287px;
+	right: 45px;
+}
+.topseller{
+    top: 413.5px;
+    right: 273px;
+}
+.gift{
+    top: 413.5px;
+    right: 78px;
+}
+.brands{
+    top: 535px;
+    right: 278px;
+}
+.contact{
+    top: 534.5px;
+    right: 69px;
+}
+.section{
+	position: relative;
+}
+.container1{
+	display: flex;
+	padding: 30px 0 5px 0;
+    margin-top: 75px;
+    align-items: baseline;
+}
+.title{
+	position: absolute;
+    top: 30px;
+    left: 85px;
+    font-family: Segoe UI;
+	font-size: 28px;
+	color: 4d4d4d;
+	text-transform: uppercase;
+}
+.item{
+	margin:0 0 0 50px;
+	text-align: center;
+}
+.itemsale{
+	position: relative;
+}
+.itemsale01{
+	position: absolute;
+	top: 73px;
+    right: 175px;
+}
+.itemsale01>img{
+	width: 370px;
+	height:562px;
+}
+.container2{
+	position: relative;
+}
+.sale-off{
+	position: absolute;
+	z-index: 1;
+	top: 70px;
+	left: 95px;
+}
+.sale-off>p{
+	color: c44c4c;
+	font-size: 54px;
+	background-color: eaeaea;
+    border-radius: 50%;
+    padding: 40px;
+}
+.title1{
+    position: absolute;
+    top: 315px;
+    left: 242px;
+    font-family: Segoe UI;
+    font-size: 59.8px;
+    color: ffffff;
+    text-transform: uppercase;
+}
+.container3{
+    position: relative;
+    display: flex;
+    padding: 30px 0 5px 0;
+    margin-top: 75px;
+    align-items: baseline;
+}
+.title2{
+	position: absolute;
+    top: -40px;
+    left: 85px;
+    font-family: Segoe UI;
+    font-size: 28px;
+    color: 4d4d4d;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.container4{
+	position: relative;
+    display: flex;
+    padding: 30px 0 5px 0;
+    margin-top: 75px;
+    align-items: baseline;
+}
+.title3{
+	position: absolute;
+    top: -40px;
+    left: 85px;
+    font-family: Segoe UI;
+    font-size: 28px;
+    color: 4d4d4d;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.tagname{
+	color: 494949;
+	font-size: 16px;
+	font-family: segoe UI;
+}
+.type{
+	color: 9f9f9f;
+	font-size: 13px;
+	font-family: segoe UI;
+}
+.cost{
+	color: c44c4c;
+	font-size: 13px;
+	font-family: segoe UI;
+}
+.container5{
+	position: relative;	
+	width: 1600px;
+}
+.text1{
+	position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -380px;
+    font-size: 30px;
+    color: 2f2f2f;
+    text-transform: uppercase;
+}
+.text2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-left: -220px;
+    font-size: 35px;
+}
+.container6{
+	display: flex;
+	justify-content: space-around;
+    background-color: 2b2c30;
+    padding: 30px 0 30px 0;
+    width: 1600px;
+    margin: auto;
+}
+.product, .shopping, .customer, .contact1{
+	font-family: Myriad Pro;
+	color: e3e3e3;
+}
+.under{
+	background-color: 141518;
+	padding: 10 0 10 0;
+	width: 84.85%;
+	display: inline-block;
+}
+.under>p{
+	font-family: Myriad Pro;
+	color: 919191;
+}
