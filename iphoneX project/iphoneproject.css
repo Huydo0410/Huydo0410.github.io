@@ -12,6 +12,7 @@ section{
 footer{
 	background: #090b1e;
 	color: #ffffff;
+	padding: 50px;
 }
 .container-1{
 	position: relative;
@@ -74,6 +75,7 @@ ul>li>a{
 .container-flex-2{
 	display: flex;
 	justify-content: center;
+	margin-bottom: 50px;
 }
 .info-0{
 	color: #181818;
@@ -193,6 +195,7 @@ a.order{
 }
 .ncc{
 	text-align: center;
+	padding: 50px 0 50px 0;
 }
 
 .email{
