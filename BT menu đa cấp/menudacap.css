@@ -43,6 +43,7 @@ a{
 }
 .make{
 	transition: all 0.4s linear;
+	font-family: 'Tinos', serif;
 }
 .make:hover{
 	transform: scale(1.5);
@@ -52,6 +53,7 @@ h2{
 	text-align: center;
 	color: #01b3ad;
 	text-transform: uppercase;
+	font-family: 'Tinos', serif;
 }
 .item{
 	text-transform: uppercase;
@@ -89,7 +91,6 @@ ul{
 	text-align: center;
 	padding-top: 5px;
 	background-color: #c4e3e4;
-
 }
 .banner3 img{
 	width: 100%;
@@ -179,6 +180,7 @@ p{
 	font-weight: 500;
 	padding-top: 2px;
 	text-transform: capitalize;
+	font-family: 'Tinos', serif;
 }
 hr{
 	width: 75%;

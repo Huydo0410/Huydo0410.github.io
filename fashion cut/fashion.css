@@ -1,0 +1,155 @@
+@font-face{
+	font-family: timesbolt;
+	scr: url(Times Bold Italic.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: today;
+	src:url(TodaySHOP-BoldItalic.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: todayx;
+	src:url(todayshop-xlight.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+header{
+	max-width: 100%;
+	position: relative;
+}
+body{
+	background-image: url(images/background.png);
+	background-repeat: no-repeat;
+}
+.container{
+	position: relative;
+	width: 1280px;
+
+}
+img{
+	width: 100%;
+	border: none;
+}
+a, strong{
+	font-family: today;
+}
+.logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.justify-content-end{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.header-top{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.container-flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	margin: 0 auto;
+    padding: 50px 0 50px 0;
+
+}
+.info-1{
+	width: 20%;
+}
+#navbarSupportedContent{
+	justify-content: flex-end;
+}
+ul.navbar-nav.mr-auto{
+	margin-right: 0px !important;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #ffffff !important;
+}
+.date{
+    width: 80px;
+    height: 80px;
+    background-color: #ffd627;
+    border-radius: 50%;
+    text-align: center;
+}
+.text{
+	width: 85%;
+    padding-left: 20px;
+}
+.container-line{
+	flex: none;
+}
+.container-line::before{
+	content: "";
+	background-color: #e7e7e7;
+	background-image: url(images/dd_07.png);
+	height: 1px;
+	background-repeat: no-repeat;
+	display: block;
+	width: 500px;
+}
+.month{
+    font-size: 9.63px;
+    color: #000000;
+    text-align: center;
+    font-family: timesbolt;
+    margin-top: 5px;
+}
+.number-1{
+	font-size: 51.64px;
+    display: inline;
+    font-family: today;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+.number-2{
+	font-size: 39.07px;
+    display: inline;
+    font-family: today;
+}
+.number{
+	display: flex;
+	margin-top: -10px;
+}
+.year{
+	font-family: todayx;
+	font-size: 12px;
+	margin-top: -20px;
+}
+.container-flex-1{
+	flex: none;
+	width: 50%;
+}
+.container-flex-2{
+	display: flex;
+	margin: 10px;
+}
+.container-flex-3{
+	display: flex;
+	width: 100%;
+}
+.aboutus, .posts, .twitter, .page{
+	font-family: todayx;
+	width: 25%;
+}
+.read-more-1, .read-more-2, .read-more-3{
+	position: relative;
+}
+.read-3, .read-2, .read-1{
+	color: #8d7302;
+	background: #ffd627;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	text-decoration: none;
+}
+.container-flex-4{
+	display: flex;
+}
