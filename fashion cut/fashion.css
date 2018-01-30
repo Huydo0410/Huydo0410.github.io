@@ -133,11 +133,12 @@ ul.navbar-nav.mr-auto{
 }
 .container-flex-3{
 	display: flex;
-	width: 100%;
+	text-align: center;
 }
 .aboutus, .posts, .twitter, .page{
 	font-family: todayx;
 	width: 25%;
+	padding: 10px;
 }
 .read-more-1, .read-more-2, .read-more-3{
 	position: relative;
@@ -152,4 +153,62 @@ ul.navbar-nav.mr-auto{
 }
 .container-flex-4{
 	display: flex;
+	padding: 10px 0 10px 0;
+}
+.container-line-2{
+	flex: none;
+}
+.container-line-2::before{
+	content: "";
+	background-color: #e7e7e7;
+	background-image: url(images/dd_07.png);
+	height: 1px;
+	background-repeat: no-repeat;
+	display: block;
+	width: 250px;
+}
+.recent-blog{
+	margin-left: 20px;
+}
+.recent-blog>p{
+	margin: 0;
+}
+.c-line{
+	padding: 20px 0 20px 0;
+}
+.twitter-1{
+	position: relative;
+	padding: 20px 0 20px 0;
+}
+.times{
+	position: absolute;
+	border: 1px solid #ffd627;
+	background: #ffd627;
+	bottom: 20px;
+	right: 0;
+}
+.text-01{
+	text-align: left;
+	font-size: 14px;
+	font-family: today;
+
+}
+.link-1{
+	text-align: left;
+	text-decoration: none;
+}
+.container-line-3{
+	flex: none;
+}
+.container-line-3::before{
+	content: "";
+	background-color: #e7e7e7;
+	background-image: url(images/dd_07.png);
+	height: 1px;
+	background-repeat: no-repeat;
+	display: block;
+	width: 100%;
+}
+.foot{
+	text-align: center;
 }
