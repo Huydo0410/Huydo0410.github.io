@@ -123,6 +123,9 @@ ul{
 	height: 200px; 
 
 }
+.a1>p{
+	font-family: 'Tinos', serif;
+}
 .a1 img{
 	vertical-align: middle;	
 	transition: all 0.5s linear;
