@@ -179,6 +179,7 @@ ul.navbar-nav.mr-auto{
 .twitter-1{
 	position: relative;
 	padding: 20px 0 20px 0;
+	font-family: todayX;
 }
 .times{
 	position: absolute;
@@ -190,7 +191,7 @@ ul.navbar-nav.mr-auto{
 .text-01{
 	text-align: left;
 	font-size: 14px;
-	font-family: today;
+	font-family: todayX;
 
 }
 .link-1{
@@ -211,4 +212,8 @@ ul.navbar-nav.mr-auto{
 }
 .foot{
 	text-align: center;
+}
+.text-02{
+	font-size: 14px;
+	font-family: todayX;
 }
