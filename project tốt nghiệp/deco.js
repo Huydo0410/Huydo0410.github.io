@@ -9,6 +9,11 @@ $(function(){
 		swal("Đăng kí thành công")
 	})
  
+});
+
+$('#book-hover').hover(function(){
+	$('.hover-img').addClass('test')
+});
+$('#book-hover').mouseleave(function(){
+	$('.hover-img').removeClass('test')
 })
-
-
