@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AASE,sBAAS;EACP,eAAe,EAAE,YAAY",
+"sources": ["bwsc-newbook.scss"],
+"names": [],
+"file": "bwsc-newbook.css"
+}

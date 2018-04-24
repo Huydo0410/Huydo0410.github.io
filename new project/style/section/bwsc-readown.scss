@@ -1,0 +1,70 @@
+.bwsc-readown {
+  width: 1200px;
+  margin: auto!important;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #797979;
+  .br-content {
+    font-family: "Playfair Display", serif;
+    font-size: 2.647em;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: "Playfair Display", serif;
+    em {
+
+    }
+  }
+
+  .br-wrap {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    .brw-item {
+
+      .brwi-top {
+        position: relative;
+        &:hover h3{
+          display: block;
+          transition: all 0.3s ease;
+          background: rgba(0,0,0,0.5);
+          color: #eeeeee;
+        }
+        a {
+          img {
+            vertical-align: middle;
+          }
+        }
+
+        h3 {
+          padding: 20px 0;
+          display: none;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+        }
+      }
+      .brwi-bot {
+        padding-bottom: 25px;
+        .brwib-title {
+          color: #eeeeee;
+          font-size: 1.647em;
+          padding: 40px 0;
+          br {
+
+          }
+        }
+
+        .brwib-link {
+
+          span {
+            color: #eeeeee;
+            font-weight: 600;
+            &:hover{
+              color: #000;
+              transition: all 0.3s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+}

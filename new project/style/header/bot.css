@@ -1,0 +1,18 @@
+.bwh-bot {
+  justify-content: space-between;
+  align-items: center; }
+  .bwh-bot .bwhb-menu .bwhbm-menu {
+    float: left;
+    font-size: 1rem;
+    text-transform: uppercase; }
+    .bwh-bot .bwhb-menu .bwhbm-menu .bm-item {
+      padding: 10px; }
+      .bwh-bot .bwhb-menu .bwhbm-menu .bm-item a:hover {
+        border-bottom: 1.5px solid #de3241 !important;
+        transition: all 0.35s ease; }
+  .bwh-bot .bwhb-menu .bwhbm-cart {
+    padding: 10px; }
+  .bwh-bot .bwhb-menu .bwhbm-search {
+    padding: 10px; }
+
+/*# sourceMappingURL=bot.css.map */
