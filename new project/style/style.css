@@ -12,7 +12,7 @@
   overflow: hidden; }
   .bwh-top .bt-wrap {
     margin: auto !important;
-    width: 1200px;
+    max-width: 1200px;
     justify-content: space-between;
     height: 35px;
     align-items: center; }
@@ -58,10 +58,10 @@
 .bwh-bot {
   overflow: hidden; }
   .bwh-bot .bh-wrap {
-    width: 1200px;
     justify-content: space-between;
     align-items: center;
-    margin: auto !important; }
+    margin: auto !important;
+    max-width: 1200px; }
     .bwh-bot .bh-wrap .bwhb-menu {
       align-items: center; }
       .bwh-bot .bh-wrap .bwhb-menu .bwhbm-menu {
@@ -89,7 +89,7 @@
   margin: auto !important; }
 
 .bwsc-newbook {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto !important; }
   .bwsc-newbook .bn-title {
     text-align: center;
@@ -182,7 +182,7 @@
 .bwsc-choosebook {
   background: #f5f5f5; }
   .bwsc-choosebook .bc-wrap {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto !important; }
     .bwsc-choosebook .bc-wrap .bc-content {
       text-align: center;
@@ -228,61 +228,66 @@
           background: transparent; }
 
 .bwsc-readown {
-  width: 1200px;
-  margin: auto !important;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #797979; }
-  .bwsc-readown .br-content {
-    font-family: "Playfair Display", serif;
-    font-size: 2.647em;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative; }
-    .bwsc-readown .br-content::after {
-      position: absolute;
-      content: '';
-      width: 8%;
-      height: 0;
-      border-top: 1px solid #222;
-      min-width: 1px;
-      bottom: 30px;
-      left: 46%; }
-  .bwsc-readown .br-wrap {
-    display: flex;
-    justify-content: space-around;
-    text-align: center; }
-    .bwsc-readown .br-wrap .brw-item .brwi-top {
+  max-width: 100%;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.2); }
+  .bwsc-readown .bwscr-wrap {
+    max-width: 1200px;
+    margin: auto !important;
+    padding-bottom: 85px; }
+    .bwsc-readown .bwscr-wrap .br-content {
+      font-family: "Playfair Display", serif;
+      font-size: 2.647em;
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
       position: relative; }
-      .bwsc-readown .br-wrap .brw-item .brwi-top:hover h3 {
-        display: block;
-        transition: all 0.3s ease;
-        background: rgba(0, 0, 0, 0.5);
-        color: #eeeeee; }
-      .bwsc-readown .br-wrap .brw-item .brwi-top a img {
-        vertical-align: middle; }
-      .bwsc-readown .br-wrap .brw-item .brwi-top h3 {
-        padding: 20px 0;
-        display: none;
+      .bwsc-readown .bwscr-wrap .br-content::after {
         position: absolute;
-        bottom: 0;
-        width: 100%; }
-    .bwsc-readown .br-wrap .brw-item .brwi-bot {
-      padding-bottom: 25px; }
-      .bwsc-readown .br-wrap .brw-item .brwi-bot .brwib-title {
-        color: #eeeeee;
-        font-size: 30px;
-        padding: 40px 0;
-        font-family: 'Playfair Display'; }
-      .bwsc-readown .br-wrap .brw-item .brwi-bot .brwib-link span {
-        color: #eeeeee;
-        font-weight: 600; }
-        .bwsc-readown .br-wrap .brw-item .brwi-bot .brwib-link span:hover {
-          color: #000;
-          transition: all 0.3s ease; }
+        content: '';
+        width: 8%;
+        height: 0;
+        border-top: 1px solid #222;
+        min-width: 1px;
+        bottom: 30px;
+        left: 46%; }
+    .bwsc-readown .bwscr-wrap .br-wrap {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      overflow: hidden; }
+      .bwsc-readown .bwscr-wrap .br-wrap .brw-item {
+        max-width: 33.33%; }
+        .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-top {
+          position: relative; }
+          .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-top:hover h3 {
+            display: block;
+            transition: all 0.3s ease;
+            background: rgba(0, 0, 0, 0.5);
+            color: #eeeeee; }
+          .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-top a img {
+            vertical-align: middle; }
+          .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-top h3 {
+            padding: 20px 0;
+            display: none;
+            position: absolute;
+            bottom: 0;
+            width: 100%; }
+        .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-bot {
+          padding-bottom: 25px; }
+          .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-bot .brwib-title {
+            color: #eeeeee;
+            font-size: 30px;
+            padding: 40px 0;
+            font-family: 'Playfair Display'; }
+          .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-bot .brwib-link span {
+            color: #eeeeee;
+            font-weight: 600; }
+            .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-bot .brwib-link span:hover {
+              color: #000;
+              transition: all 0.3s ease; }
 
 .bwsc-picker .bp-wrap {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto !important; }
   .bwsc-picker .bp-wrap .bpw-head .bpwh-title {
     padding: 50px 0;
@@ -351,7 +356,7 @@
   .bwsc-hot-blog .bhbw-img {
     width: 100%; }
   .bwsc-hot-blog .bhb-wrap {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto !important; }
     .bwsc-hot-blog .bhb-wrap .bhb-content {
       position: absolute;
@@ -393,7 +398,7 @@
   padding-bottom: 25px; }
   .bwsc-best-seller .bbs-wrap {
     padding-top: 85px;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto !important; }
     .bwsc-best-seller .bbs-wrap .bbsw-left {
       width: 75%; }
@@ -413,7 +418,7 @@
             bottom: -20px;
             left: 0; }
       .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content {
-        padding: 0 85px; }
+        padding: 0 50px; }
         .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content .bwc-title {
           font-family: "Playfair Display", serif;
           font-size: 2.647em; }
@@ -496,7 +501,7 @@
 .bwsc-popular-author {
   background-color: #f5f5f5; }
   .bwsc-popular-author .ba-wrap {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto !important; }
     .bwsc-popular-author .ba-wrap h3 {
       font-size: 2.647em;

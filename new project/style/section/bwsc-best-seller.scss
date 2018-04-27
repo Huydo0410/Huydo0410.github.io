@@ -2,7 +2,7 @@
   padding-bottom: 25px;
   .bbs-wrap {
     padding-top: 85px;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto!important;
 
     .bbsw-left {
@@ -36,7 +36,7 @@
         }
 
         .bw-content {
-          padding: 0 85px;
+          padding: 0 50px;
           .bwc-title {
             font-family: "Playfair Display", serif;
             font-size: 2.647em;

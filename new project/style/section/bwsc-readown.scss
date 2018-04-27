@@ -1,79 +1,84 @@
 .bwsc-readown {
-  width: 1200px;
-  margin: auto!important;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #797979;
-  .br-content {
-    font-family: "Playfair Display", serif;
-    font-size: 2.647em;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative;
-    &::after{
-      position: absolute;
-      content: '';
-      width: 8%;
-      height: 0;
-      border-top: 1px solid #222;
-      min-width: 1px;
-      bottom: 30px;
-      left: 46%;
-    }
-    em {
-
-    }
-  }
-
-  .br-wrap {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    .brw-item {
-      &:hover{
+  max-width: 100%;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.2);
+  .bwscr-wrap{
+    max-width: 1200px;
+    margin: auto!important;
+    padding-bottom: 85px;
+    .br-content {
+      font-family: "Playfair Display", serif;
+      font-size: 2.647em;
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      position: relative;
+      &::after{
+        position: absolute;
+        content: '';
+        width: 8%;
+        height: 0;
+        border-top: 1px solid #222;
+        min-width: 1px;
+        bottom: 30px;
+        left: 46%;
       }
-      .brwi-top {
-        position: relative;
-        &:hover h3{
-          display: block;
-          transition: all 0.3s ease;
-          background: rgba(0,0,0,0.5);
-          color: #eeeeee;
-        }
-        a {
-          img {
-            vertical-align: middle;
-          }
-        }
+      em {
 
-        h3 {
-          padding: 20px 0;
-          display: none;
-          position: absolute;
-          bottom: 0;
-          width: 100%;
-        }
       }
-      .brwi-bot {
-        padding-bottom: 25px;
-        .brwib-title {
-          color: #eeeeee;
-          font-size: 30px;
-          padding: 40px 0;
-          font-family: 'Playfair Display';
-          br {
+    }
 
-          }
+    .br-wrap {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      overflow: hidden;
+      .brw-item {
+        max-width: 33.33%;
+        &:hover{
         }
-
-        .brwib-link {
-
-          span {
+        .brwi-top {
+          position: relative;
+          &:hover h3{
+            display: block;
+            transition: all 0.3s ease;
+            background: rgba(0,0,0,0.5);
             color: #eeeeee;
-            font-weight: 600;
-            &:hover{
-              color: #000;
-              transition: all 0.3s ease;
+          }
+          a {
+            img {
+              vertical-align: middle;
+            }
+          }
+
+          h3 {
+            padding: 20px 0;
+            display: none;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+          }
+        }
+        .brwi-bot {
+          padding-bottom: 25px;
+          .brwib-title {
+            color: #eeeeee;
+            font-size: 30px;
+            padding: 40px 0;
+            font-family: 'Playfair Display';
+            br {
+
+            }
+          }
+
+          .brwib-link {
+
+            span {
+              color: #eeeeee;
+              font-weight: 600;
+              &:hover{
+                color: #000;
+                transition: all 0.3s ease;
+              }
             }
           }
         }
