@@ -78,12 +78,35 @@
               transition: all 0.35s ease;
               color: #de3241; }
       .bwh-bot .bh-wrap .bwhb-menu .bwhbm-cart {
-        padding: 10px; }
+        padding: 10px;
+        display: inline-block; }
+        .bwh-bot .bh-wrap .bwhb-menu .bwhbm-cart a .fa {
+          color: #000; }
       .bwh-bot .bh-wrap .bwhb-menu .bwhbm-search {
         padding: 10px; }
+        .bwh-bot .bh-wrap .bwhb-menu .bwhbm-search a .fa {
+          color: #000; }
 
-.swiper-container {
-  max-height: 500px; }
+.carousel-caption {
+  bottom: 30% !important; }
+  .carousel-caption .carousel-title {
+    font-size: 42px;
+    padding-bottom: 50px;
+    font-family: Playfair Display; }
+  .carousel-caption .carousel-link {
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: #fff;
+    background: #000;
+    border-radius: 5px; }
+    .carousel-caption .carousel-link:hover {
+      background: transparent; }
+
+.cr-right {
+  right: -20% !important;
+  bottom: 48% !important; }
+  .cr-right .carousel-link {
+    margin-left: 20% !important; }
 
 .bws-content {
   margin: auto !important; }
@@ -135,11 +158,13 @@
       width: 25%; }
       .bwsc-newbook .bn-wrap .dw-img .bwi-img {
         width: 60% !important; }
+      .bwsc-newbook .bn-wrap .dw-img .bwi-author {
+        padding-bottom: 20px; }
       .bwsc-newbook .bn-wrap .dw-img .bwi-cost {
         color: #de3241; }
   .bwsc-newbook .bn-discover {
     text-align: center;
-    margin: 50px !important; }
+    margin: 85px !important; }
     .bwsc-newbook .bn-discover .bnd-link {
       background: black;
       padding: 15px 20px;
@@ -208,9 +233,10 @@
         .bwsc-choosebook .bc-wrap .bc-wrap .bcw-item img {
           margin-bottom: 25px !important; }
         .bwsc-choosebook .bc-wrap .bc-wrap .bcw-item a {
-          font-size: 25px;
+          font-size: 20px;
           color: #797979;
-          font-style: italic; }
+          font-style: italic;
+          font-family: "PT Sans", sans-serif; }
           .bwsc-choosebook .bc-wrap .bc-wrap .bcw-item a:hover {
             color: #de3241; }
     .bwsc-choosebook .bc-wrap .bc-discover {
@@ -555,6 +581,29 @@
         border-radius: 5px;
         text-transform: uppercase; }
         .bwsc-popular-author .ba-wrap .baw-more a:hover {
+          background: transparent;
+          color: black; }
+
+.bwsc-discout {
+  background: #de3242; }
+  .bwsc-discout .bd-wrap {
+    max-width: 1200px;
+    margin: auto !important;
+    justify-content: space-between; }
+    .bwsc-discout .bd-wrap .bdw-content {
+      font-size: 45px;
+      font-family: "PT Sans"; }
+      .bwsc-discout .bd-wrap .bdw-content span {
+        color: #fff; }
+    .bwsc-discout .bd-wrap .bdw-link {
+      margin: auto !important; }
+      .bwsc-discout .bd-wrap .bdw-link a {
+        color: #fff;
+        padding: 10px 30px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        background: #000; }
+        .bwsc-discout .bd-wrap .bdw-link a:hover {
           background: transparent;
           color: black; }
 
