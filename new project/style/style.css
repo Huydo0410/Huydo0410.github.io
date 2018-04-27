@@ -82,6 +82,9 @@
       .bwh-bot .bh-wrap .bwhb-menu .bwhbm-search {
         padding: 10px; }
 
+.swiper-container {
+  max-height: 500px; }
+
 .bws-content {
   margin: auto !important; }
 
@@ -177,50 +180,52 @@
         color: #000; }
 
 .bwsc-choosebook {
-  width: 1200px;
-  margin: auto !important; }
-  .bwsc-choosebook .bc-content {
-    text-align: center;
-    font-size: 2.647em;
-    padding: 80px 0 50px 0;
-    position: relative;
-    font-family: "Playfair Display", serif; }
-    .bwsc-choosebook .bc-content::after {
-      position: absolute;
-      content: '';
-      width: 8%;
-      height: 0;
-      border-top: 1px solid #222;
-      min-width: 1px;
-      bottom: 30px;
-      left: 46%; }
+  background: #f5f5f5; }
   .bwsc-choosebook .bc-wrap {
-    justify-content: space-around; }
-    .bwsc-choosebook .bc-wrap .bcw-item {
-      width: 25%;
-      overflow: hidden;
-      text-align: center; }
-      .bwsc-choosebook .bc-wrap .bcw-item img {
-        margin-bottom: 25px !important; }
-      .bwsc-choosebook .bc-wrap .bcw-item a {
-        font-size: 25px;
-        color: #797979;
-        font-style: italic; }
-        .bwsc-choosebook .bc-wrap .bcw-item a:hover {
-          color: #de3241; }
-  .bwsc-choosebook .bc-discover {
-    text-align: center;
-    padding: 60px 0; }
-    .bwsc-choosebook .bc-discover .bcd-link {
-      background: black;
-      padding: 15px 20px;
-      border-radius: 5px;
-      color: white;
-      text-transform: uppercase; }
-      .bwsc-choosebook .bc-discover .bcd-link:hover {
-        border: 1px solid black;
-        color: black;
-        background: transparent; }
+    width: 1200px;
+    margin: auto !important; }
+    .bwsc-choosebook .bc-wrap .bc-content {
+      text-align: center;
+      font-size: 2.647em;
+      padding: 80px 0 50px 0;
+      position: relative;
+      font-family: "Playfair Display", serif; }
+      .bwsc-choosebook .bc-wrap .bc-content::after {
+        position: absolute;
+        content: '';
+        width: 8%;
+        height: 0;
+        border-top: 1px solid #222;
+        min-width: 1px;
+        bottom: 30px;
+        left: 46%; }
+    .bwsc-choosebook .bc-wrap .bc-wrap {
+      justify-content: space-around; }
+      .bwsc-choosebook .bc-wrap .bc-wrap .bcw-item {
+        width: 25%;
+        overflow: hidden;
+        text-align: center; }
+        .bwsc-choosebook .bc-wrap .bc-wrap .bcw-item img {
+          margin-bottom: 25px !important; }
+        .bwsc-choosebook .bc-wrap .bc-wrap .bcw-item a {
+          font-size: 25px;
+          color: #797979;
+          font-style: italic; }
+          .bwsc-choosebook .bc-wrap .bc-wrap .bcw-item a:hover {
+            color: #de3241; }
+    .bwsc-choosebook .bc-wrap .bc-discover {
+      text-align: center;
+      padding: 60px 0; }
+      .bwsc-choosebook .bc-wrap .bc-discover .bcd-link {
+        background: black;
+        padding: 15px 20px;
+        border-radius: 5px;
+        color: white;
+        text-transform: uppercase; }
+        .bwsc-choosebook .bc-wrap .bc-discover .bcd-link:hover {
+          border: 1px solid black;
+          color: black;
+          background: transparent; }
 
 .bwsc-readown {
   width: 1200px;
@@ -231,8 +236,18 @@
     font-family: "Playfair Display", serif;
     font-size: 2.647em;
     text-align: center;
+    padding-top: 50px;
     padding-bottom: 50px;
-    font-family: "Playfair Display", serif; }
+    position: relative; }
+    .bwsc-readown .br-content::after {
+      position: absolute;
+      content: '';
+      width: 8%;
+      height: 0;
+      border-top: 1px solid #222;
+      min-width: 1px;
+      bottom: 30px;
+      left: 46%; }
   .bwsc-readown .br-wrap {
     display: flex;
     justify-content: space-around;
@@ -256,14 +271,287 @@
       padding-bottom: 25px; }
       .bwsc-readown .br-wrap .brw-item .brwi-bot .brwib-title {
         color: #eeeeee;
-        font-size: 1.647em;
-        padding: 40px 0; }
+        font-size: 30px;
+        padding: 40px 0;
+        font-family: 'Playfair Display'; }
       .bwsc-readown .br-wrap .brw-item .brwi-bot .brwib-link span {
         color: #eeeeee;
         font-weight: 600; }
         .bwsc-readown .br-wrap .brw-item .brwi-bot .brwib-link span:hover {
           color: #000;
           transition: all 0.3s ease; }
+
+.bwsc-picker .bp-wrap {
+  width: 1200px;
+  margin: auto !important; }
+  .bwsc-picker .bp-wrap .bpw-head .bpwh-title {
+    padding: 50px 0;
+    font-family: "Playfair Display", serif;
+    font-size: 2.647em;
+    text-align: center;
+    position: relative; }
+    .bwsc-picker .bp-wrap .bpw-head .bpwh-title::after {
+      position: absolute;
+      content: '';
+      width: 8%;
+      height: 0;
+      border-top: 1px solid #222;
+      min-width: 1px;
+      bottom: 30px;
+      left: 46%; }
+  .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+    .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item {
+      width: 15%; }
+      .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-img img {
+        width: 100%; }
+      .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content {
+        line-height: 1.5em;
+        padding-top: 15px; }
+        .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-name {
+          font-family: 'Playfair Display';
+          font-weight: 700;
+          font-size: 20px;
+          text-transform: capitalize;
+          padding-bottom: 10px; }
+          .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-name a {
+            color: black; }
+            .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-name a:hover {
+              color: #de3241; }
+        .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-author {
+          color: #797979; }
+        .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-rate {
+          color: #797979;
+          filter: grayscale(1); }
+          .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-rate:hover {
+            color: #de3241;
+            filter: grayscale(0);
+            transition: all 0.3s ease;
+            cursor: pointer; }
+  .bwsc-picker .bp-wrap .bpw-foot {
+    padding: 50px 0;
+    text-align: center; }
+    .bwsc-picker .bp-wrap .bpw-foot a {
+      font-size: 18px;
+      padding: 10px 30px;
+      background: #000;
+      color: #eeeeee;
+      border: 1px solid black;
+      border-radius: 5px;
+      text-transform: uppercase; }
+      .bwsc-picker .bp-wrap .bpw-foot a:hover {
+        color: black;
+        background: transparent; }
+
+.bwsc-hot-blog {
+  position: relative;
+  overflow: hidden; }
+  .bwsc-hot-blog .bhbw-img {
+    width: 100%; }
+  .bwsc-hot-blog .bhb-wrap {
+    width: 1200px;
+    margin: auto !important; }
+    .bwsc-hot-blog .bhb-wrap .bhb-content {
+      position: absolute;
+      right: 35px;
+      top: 30%; }
+      .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-title {
+        font-family: "Playfair Display", serif;
+        font-size: 50px;
+        line-height: 1.5;
+        color: #eeeeee; }
+        .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-title::after {
+          position: absolute;
+          content: '';
+          width: 20%;
+          height: 0;
+          border-top: 1px solid #eeeeee;
+          min-width: 1px;
+          right: 0; }
+      .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-center {
+        padding: 20px 0;
+        text-align: right;
+        line-height: 1.5;
+        font-family: 'Playfair Display';
+        font-size: 18px;
+        color: #eeeeee; }
+      .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-bot {
+        text-align: right; }
+        .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-bot a {
+          padding: 10px 20px;
+          border: 1px solid black;
+          background: black;
+          color: white;
+          border-radius: 5px; }
+          .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-bot a:hover {
+            background: transparent;
+            color: #eeeeee; }
+
+.bwsc-best-seller {
+  padding-bottom: 25px; }
+  .bwsc-best-seller .bbs-wrap {
+    padding-top: 85px;
+    width: 1200px;
+    margin: auto !important; }
+    .bwsc-best-seller .bbs-wrap .bbsw-left {
+      width: 75%; }
+      .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-top {
+        padding-bottom: 50px; }
+        .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-top h3 {
+          font-size: 16px;
+          text-transform: uppercase;
+          font-weight: 600;
+          position: relative; }
+          .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-top h3::after {
+            content: '';
+            position: absolute;
+            width: 8%;
+            height: 0;
+            border-top: 1px solid #222222;
+            bottom: -20px;
+            left: 0; }
+      .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content {
+        padding: 0 85px; }
+        .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content .bwc-title {
+          font-family: "Playfair Display", serif;
+          font-size: 2.647em; }
+        .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content .bwc-author {
+          padding: 25px 0;
+          font-size: 18px;
+          color: #797979;
+          text-transform: capitalize; }
+          .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content .bwc-author span {
+            color: #de3241; }
+        .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content .bwc-content {
+          padding: 0 0 25px 0;
+          font-size: 16px;
+          color: #797979; }
+        .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content .bwc-price {
+          color: #797979;
+          padding-bottom: 85px; }
+          .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content .bwc-price span {
+            color: #de3241;
+            font-size: 20px; }
+        .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content .bwc-more-info a {
+          padding: 10px 30px;
+          color: #fff;
+          border: 2px solid black;
+          border-radius: 5px;
+          background: #000;
+          text-transform: uppercase; }
+          .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-wrap .bw-content .bwc-more-info a:hover {
+            background: transparent;
+            color: black; }
+    .bwsc-best-seller .bbs-wrap .bbsw-right {
+      width: 25%; }
+      .bwsc-best-seller .bbs-wrap .bbsw-right .br-title {
+        padding-bottom: 50px; }
+        .bwsc-best-seller .bbs-wrap .bbsw-right .br-title h3 {
+          font-size: 16px;
+          text-transform: uppercase;
+          font-weight: 600;
+          position: relative; }
+          .bwsc-best-seller .bbs-wrap .bbsw-right .br-title h3::after {
+            content: '';
+            position: absolute;
+            width: 25%;
+            height: 0;
+            border-top: 1px solid #222222;
+            bottom: -20px;
+            left: 0; }
+      .bwsc-best-seller .bbs-wrap .bbsw-right .br-item {
+        padding-bottom: 40px;
+        position: relative; }
+        .bwsc-best-seller .bbs-wrap .bbsw-right .br-item::after {
+          content: '';
+          position: absolute;
+          width: 85%;
+          height: 0;
+          border-top: 1px solid rgba(121, 121, 121, 0.2);
+          bottom: 20px;
+          left: 0; }
+        .bwsc-best-seller .bbs-wrap .bbsw-right .br-item .bri-img {
+          width: 40%; }
+          .bwsc-best-seller .bbs-wrap .bbsw-right .br-item .bri-img img {
+            width: 70%; }
+        .bwsc-best-seller .bbs-wrap .bbsw-right .br-item .bri-wrap {
+          width: 60%; }
+          .bwsc-best-seller .bbs-wrap .bbsw-right .br-item .bri-wrap .briw-name {
+            font-size: 24px;
+            font-family: "Playfair Display", serif;
+            padding-bottom: 15px;
+            text-transform: capitalize; }
+            .bwsc-best-seller .bbs-wrap .bbsw-right .br-item .bri-wrap .briw-name a {
+              color: black; }
+              .bwsc-best-seller .bbs-wrap .bbsw-right .br-item .bri-wrap .briw-name a:hover {
+                color: #de3241; }
+          .bwsc-best-seller .bbs-wrap .bbsw-right .br-item .bri-wrap .briw-price span {
+            color: #de3241;
+            font-size: 18px; }
+      .bwsc-best-seller .bbs-wrap .bbsw-right .bri-rm::after {
+        content: none; }
+
+.bwsc-popular-author {
+  background-color: #f5f5f5; }
+  .bwsc-popular-author .ba-wrap {
+    width: 1200px;
+    margin: auto !important; }
+    .bwsc-popular-author .ba-wrap h3 {
+      font-size: 2.647em;
+      font-family: "Playfair Display", serif;
+      text-align: center;
+      padding: 50px 0;
+      text-transform: capitalize; }
+    .bwsc-popular-author .ba-wrap .baw-wrap .baww-item {
+      width: 25%; }
+      .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content {
+        position: relative;
+        filter: grayscale(0); }
+        .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content:hover .bawwic-social {
+          display: block;
+          transition: all 0.4s ease; }
+        .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content:hover {
+          filter: grayscale(1);
+          transition: all 0.4s ease; }
+        .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content .bawwic-img {
+          width: 85%; }
+        .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content .bawwic-social {
+          position: absolute;
+          left: 20%;
+          bottom: 40%;
+          display: none; }
+          .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content .bawwic-social a {
+            border: 1px solid #fff;
+            border-radius: 50%;
+            padding: 10px;
+            display: inline-block;
+            background: #fff; }
+            .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content .bawwic-social a .fa {
+              font-size: 20px; }
+      .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-name {
+        text-align: center;
+        font-size: 18px;
+        padding: 20px; }
+        .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-name a {
+          color: #797979; }
+          .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-name a:hover {
+            color: #de3241; }
+    .bwsc-popular-author .ba-wrap .baw-more {
+      text-align: center;
+      padding-bottom: 85px;
+      padding-top: 50px; }
+      .bwsc-popular-author .ba-wrap .baw-more a {
+        padding: 10px 40px;
+        color: #eeeeee;
+        background: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-transform: uppercase; }
+        .bwsc-popular-author .ba-wrap .baw-more a:hover {
+          background: transparent;
+          color: black; }
 
 body {
   font-size: 14px !important;

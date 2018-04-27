@@ -1,0 +1,22 @@
+.bwsc-best-seller .bbs-wrap {
+  padding-top: 85px;
+  width: 1200px;
+  margin: auto !important; }
+  .bwsc-best-seller .bbs-wrap .bbsw-left {
+    width: 60%; }
+    .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-top {
+      padding-bottom: 50px; }
+      .bwsc-best-seller .bbs-wrap .bbsw-left .bbswl-top h3 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600; }
+  .bwsc-best-seller .bbs-wrap .bbsw-right {
+    width: 40%; }
+    .bwsc-best-seller .bbs-wrap .bbsw-right .br-title {
+      padding-bottom: 50px; }
+      .bwsc-best-seller .bbs-wrap .bbsw-right .br-title h3 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600; }
+
+/*# sourceMappingURL=bwsc-best-seller.css.map */
