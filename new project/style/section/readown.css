@@ -1,3 +1,60 @@
+.bwsc-readown {
+  max-width: 100%;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.2); }
+  .bwsc-readown .bwscr-wrap {
+    max-width: 1200px;
+    margin: auto !important;
+    padding-bottom: 85px; }
+    .bwsc-readown .bwscr-wrap .br-content {
+      font-family: "Playfair Display", serif;
+      font-size: 2.647em;
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      position: relative; }
+      .bwsc-readown .bwscr-wrap .br-content::after {
+        position: absolute;
+        content: '';
+        width: 8%;
+        height: 0;
+        border-top: 1px solid #222;
+        min-width: 1px;
+        bottom: 30px;
+        left: 46%; }
+    .bwsc-readown .bwscr-wrap .br-wrap {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      overflow: hidden; }
+      .bwsc-readown .bwscr-wrap .br-wrap .brw-item {
+        max-width: 33.33%; }
+        .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-top {
+          position: relative; }
+          .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-top:hover h3 {
+            display: block;
+            transition: all 0.3s ease;
+            background: rgba(0, 0, 0, 0.5);
+            color: #eeeeee; }
+          .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-top a img {
+            vertical-align: middle; }
+          .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-top h3 {
+            padding: 20px 0;
+            display: none;
+            position: absolute;
+            bottom: 0;
+            width: 100%; }
+        .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-bot {
+          padding-bottom: 25px; }
+          .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-bot .brwib-title {
+            color: #eeeeee;
+            font-size: 30px;
+            padding: 40px 0;
+            font-family: 'Playfair Display'; }
+          .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-bot .brwib-link span {
+            color: #eeeeee;
+            font-weight: 600; }
+            .bwsc-readown .bwscr-wrap .br-wrap .brw-item .brwi-bot .brwib-link span:hover {
+              color: #000;
+              transition: all 0.3s ease; }
 
-
-/*# sourceMappingURL=bwsc-readown.css.map */
+/*# sourceMappingURL=readown.css.map */

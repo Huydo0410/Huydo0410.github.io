@@ -1,3 +1,65 @@
+.bwsc-picker .bp-wrap {
+  max-width: 1200px;
+  margin: auto !important; }
+  .bwsc-picker .bp-wrap .bpw-head .bpwh-title {
+    padding: 50px 0;
+    font-family: "Playfair Display", serif;
+    font-size: 2.647em;
+    text-align: center;
+    position: relative; }
+    .bwsc-picker .bp-wrap .bpw-head .bpwh-title::after {
+      position: absolute;
+      content: '';
+      width: 8%;
+      height: 0;
+      border-top: 1px solid #222;
+      min-width: 1px;
+      bottom: 30px;
+      left: 46%; }
+  .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; }
+    .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item {
+      width: 15%; }
+      .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-img img {
+        width: 100%; }
+      .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content {
+        line-height: 1.5em;
+        padding-top: 15px; }
+        .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-name {
+          font-family: 'Playfair Display';
+          font-weight: 700;
+          font-size: 20px;
+          text-transform: capitalize;
+          padding-bottom: 10px; }
+          .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-name a {
+            color: black; }
+            .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-name a:hover {
+              color: #de3241; }
+        .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-author {
+          color: #797979; }
+        .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-rate {
+          color: #797979;
+          filter: grayscale(1); }
+          .bwsc-picker .bp-wrap .bpw-head .bpwh-wrap .bpwhw-item .bi-content .bic-rate:hover {
+            color: #de3241;
+            filter: grayscale(0);
+            transition: all 0.3s ease;
+            cursor: pointer; }
+  .bwsc-picker .bp-wrap .bpw-foot {
+    padding: 85px 0;
+    text-align: center; }
+    .bwsc-picker .bp-wrap .bpw-foot a {
+      font-size: 18px;
+      padding: 10px 30px;
+      background: #000;
+      color: #eeeeee;
+      border: 1px solid black;
+      border-radius: 5px;
+      text-transform: uppercase; }
+      .bwsc-picker .bp-wrap .bpw-foot a:hover {
+        color: black;
+        background: transparent; }
 
-
-/*# sourceMappingURL=bwsc-picker.css.map */
+/*# sourceMappingURL=picker.css.map */

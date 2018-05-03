@@ -1,3 +1,61 @@
+.bwsc-popular-author {
+  background-color: #f5f5f5; }
+  .bwsc-popular-author .ba-wrap {
+    max-width: 1200px;
+    margin: auto !important; }
+    .bwsc-popular-author .ba-wrap h3 {
+      font-size: 2.647em;
+      font-family: "Playfair Display", serif;
+      text-align: center;
+      padding: 50px 0;
+      text-transform: capitalize; }
+    .bwsc-popular-author .ba-wrap .baw-wrap .baww-item {
+      width: 25%; }
+      .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content {
+        position: relative;
+        filter: grayscale(0); }
+        .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content:hover .bawwic-social {
+          display: block;
+          transition: all 0.4s ease; }
+        .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content:hover {
+          filter: grayscale(1);
+          transition: all 0.4s ease; }
+        .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content .bawwic-img {
+          width: 85%; }
+        .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content .bawwic-social {
+          position: absolute;
+          left: 20%;
+          bottom: 40%;
+          display: none; }
+          .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content .bawwic-social a {
+            border: 1px solid #fff;
+            border-radius: 50%;
+            padding: 10px;
+            display: inline-block;
+            background: #fff; }
+            .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-content .bawwic-social a .fa {
+              font-size: 20px; }
+      .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-name {
+        text-align: center;
+        font-size: 18px;
+        padding: 20px; }
+        .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-name a {
+          color: #797979; }
+          .bwsc-popular-author .ba-wrap .baw-wrap .baww-item .bawwi-name a:hover {
+            color: #de3241; }
+    .bwsc-popular-author .ba-wrap .baw-more {
+      text-align: center;
+      padding-bottom: 85px;
+      padding-top: 50px; }
+      .bwsc-popular-author .ba-wrap .baw-more a {
+        padding: 10px 40px;
+        color: #eeeeee;
+        background: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-transform: uppercase; }
+        .bwsc-popular-author .ba-wrap .baw-more a:hover {
+          background: transparent;
+          color: black; }
 
-
-/*# sourceMappingURL=bwsc-popular-author.css.map */
+/*# sourceMappingURL=popular-author.css.map */

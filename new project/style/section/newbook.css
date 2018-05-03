@@ -1,4 +1,67 @@
-.bwsc-newbook .bn-menu {
-  justify-content: space-around; }
+.bwsc-newbook {
+  max-width: 1200px;
+  margin: auto !important; }
+  .bwsc-newbook .bn-title {
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 3.235em;
+    padding-top: 20px;
+    font-family: "Playfair Display", serif; }
+    .bwsc-newbook .bn-title::after {
+      position: absolute;
+      content: "";
+      width: 8%;
+      display: block;
+      border-top: 1px solid #222222;
+      height: 0;
+      min-width: 2em;
+      bottom: 0;
+      left: 46%; }
+  .bwsc-newbook .bn-menu {
+    justify-content: space-around;
+    width: 50%;
+    margin: auto !important;
+    padding: 50px 0; }
+    .bwsc-newbook .bn-menu .bn-new {
+      text-transform: uppercase;
+      font-weight: 700; }
+    .bwsc-newbook .bn-menu .bn-coming {
+      text-transform: uppercase;
+      font-weight: 700; }
+    .bwsc-newbook .bn-menu .bn-seller {
+      text-transform: uppercase;
+      font-weight: 700; }
+    .bwsc-newbook .bn-menu .bn-award {
+      text-transform: uppercase;
+      font-weight: 700; }
+    .bwsc-newbook .bn-menu .bnn-tablink:hover {
+      cursor: pointer; }
+  .bwsc-newbook .bn-wrap {
+    text-align: center;
+    overflow: hidden; }
+    .bwsc-newbook .bn-wrap .dw-img {
+      float: left;
+      width: 25%; }
+      .bwsc-newbook .bn-wrap .dw-img .bwi-img {
+        width: 60% !important; }
+      .bwsc-newbook .bn-wrap .dw-img .bwi-author {
+        padding-bottom: 20px; }
+      .bwsc-newbook .bn-wrap .dw-img .bwi-cost {
+        color: #de3241; }
+  .bwsc-newbook .bn-discover {
+    text-align: center;
+    margin: 85px !important; }
+    .bwsc-newbook .bn-discover .bnd-link {
+      background: black;
+      padding: 15px 20px;
+      border-radius: 5px;
+      color: white;
+      text-transform: uppercase; }
+      .bwsc-newbook .bn-discover .bnd-link:hover {
+        background: white;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px; }
 
-/*# sourceMappingURL=bwsc-newbook.css.map */
+/*# sourceMappingURL=newbook.css.map */
