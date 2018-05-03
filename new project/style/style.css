@@ -232,6 +232,10 @@
         text-align: center; }
         .bwsc-choosebook .bc-wrap .bc-wrap .bcw-item img {
           margin-bottom: 25px !important; }
+          .bwsc-choosebook .bc-wrap .bc-wrap .bcw-item img:hover {
+            transform: scale(1.1);
+            transition: all 0.3s ease;
+            overflow: hidden; }
         .bwsc-choosebook .bc-wrap .bc-wrap .bcw-item a {
           font-size: 20px;
           color: #797979;
