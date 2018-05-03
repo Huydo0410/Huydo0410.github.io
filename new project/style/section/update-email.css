@@ -1,0 +1,28 @@
+.bwsc-update-email {
+  background: url("../img/bg1.jpg") no-repeat; }
+  .bwsc-update-email .be-content {
+    font-size: 2.941em;
+    text-align: center;
+    padding: 50px 0;
+    font-family: "Playfair Display", serif; }
+  .bwsc-update-email .be-email {
+    text-align: center;
+    padding: 20px 0 50px 0; }
+    .bwsc-update-email .be-email .bee-int {
+      font-size: 15px;
+      padding: 10px 20px;
+      border: none; }
+    .bwsc-update-email .be-email .bee-btn {
+      font-size: 15px;
+      padding: 10px 20px;
+      font-weight: 700;
+      border: none;
+      text-transform: uppercase;
+      background: #000;
+      color: #fff; }
+      .bwsc-update-email .be-email .bee-btn:hover {
+        background: transparent;
+        transition: all 0.35s ease;
+        color: #000; }
+
+/*# sourceMappingURL=update-email.css.map */

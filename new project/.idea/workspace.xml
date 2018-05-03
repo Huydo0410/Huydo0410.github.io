@@ -2,9 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c06ed52-c400-4b76-b5ef-cb8083799aa2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/components/wrap.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header/bot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header/bot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header/bot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header/top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header/top.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header/top.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header/wrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header/wrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header/wrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/best-seller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/best-seller.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/best-seller.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/choosebook.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/choosebook.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/choosebook.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/content.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/discout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/hot-blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/hot-blog.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/hot-blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/newbook.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/newbook.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/newbook.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/picker.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/picker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/popular-author.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/popular-author.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/popular-author.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/readown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/readown.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/readown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/slider.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/update-email.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/update-email.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/update-email.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/wrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/wrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/section/wrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +66,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="247" column="61" selection-start-line="247" selection-start-column="61" selection-end-line="247" selection-end-column="61" />
+            <state relative-caret-position="286">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -54,56 +99,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/reset.css">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="discout.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/section/discout.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bwsc-newbook.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/section/bwsc-newbook.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bwsc-choosebook.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/section/bwsc-choosebook.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slider.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/section/slider.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="17">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="wrap.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/section/wrap.scss">
+        <entry file="file://$PROJECT_DIR$/style/components/wrap.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -135,7 +153,6 @@
         <option value="$PROJECT_DIR$/style/swiper/swiper" />
         <option value="$PROJECT_DIR$/style/swiper/swipe.js" />
         <option value="$PROJECT_DIR$/style/header/wrap.scss" />
-        <option value="$PROJECT_DIR$/style/style.scss" />
         <option value="$PROJECT_DIR$/style/section/content.scss" />
         <option value="$PROJECT_DIR$/style/style.js" />
         <option value="$PROJECT_DIR$/style/section/bwsc-update-email.scss" />
@@ -149,10 +166,12 @@
         <option value="$PROJECT_DIR$/style/section/bwsc-newbook.scss" />
         <option value="$PROJECT_DIR$/style/section/bwsc-choosebook.scss" />
         <option value="$PROJECT_DIR$/style/section/slider.scss" />
-        <option value="$PROJECT_DIR$/style/section/wrap.scss" />
         <option value="$PROJECT_DIR$/style/section/discout.scss" />
         <option value="$PROJECT_DIR$/style/reset.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/section/wrap.scss" />
+        <option value="$PROJECT_DIR$/style/components/wrap.scss" />
+        <option value="$PROJECT_DIR$/style/style.scss" />
       </list>
     </option>
   </component>
@@ -167,7 +186,7 @@
       <path value="$PROJECT_DIR$/style/library/swiper/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -193,18 +212,6 @@
               <item name="new project" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="new project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new project" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new project" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="section" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -220,7 +227,7 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -239,6 +246,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="2" BundledDictionary0="jetbrains.dic" BundledDictionary1="english.dic" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -260,20 +268,22 @@
       <workItem from="1524725045698" duration="14360000" />
       <workItem from="1524791272673" duration="13988000" />
       <workItem from="1525223648586" duration="5117000" />
+      <workItem from="1525313785106" duration="650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99108000" />
+    <option name="totallyTimeSpent" value="99758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1386" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11904762" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -286,7 +296,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,27 +305,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style/section/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/wrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/section/wrap.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -338,7 +326,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/bwsc-newbook.scss">
+    <entry file="file://$PROJECT_DIR$/style/section/newbook.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
@@ -379,7 +367,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/bwsc-newbook.scss">
+    <entry file="file://$PROJECT_DIR$/style/section/newbook.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2006">
           <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
@@ -506,13 +494,6 @@
         <state relative-caret-position="-606" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/section/content.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -527,38 +508,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/bwsc-update-email.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/bwsc-popular-author.scss">
+    <entry file="file://$PROJECT_DIR$/style/section/popular-author.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/bwsc-hot-blog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/bwsc-picker.scss">
+    <entry file="file://$PROJECT_DIR$/style/section/picker.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/header/wrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -569,28 +529,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/bwsc-readown.scss">
+    <entry file="file://$PROJECT_DIR$/style/section/readown.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/bwsc-best-seller.scss">
+    <entry file="file://$PROJECT_DIR$/style/section/best-seller.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/bwsc-choosebook.scss">
+    <entry file="file://$PROJECT_DIR$/style/section/choosebook.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/bwsc-newbook.scss">
+    <entry file="file://$PROJECT_DIR$/style/section/newbook.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
@@ -604,20 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/section/wrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/section/discout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -627,15 +573,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="816">
           <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/header/header-wrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/section/update-email.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/section/hot-blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/section/slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/header/wrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/section/wrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/footer/wrap.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/components/wrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="247" column="61" selection-start-line="247" selection-start-column="61" selection-end-line="247" selection-end-column="61" />
+        <state relative-caret-position="286">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
