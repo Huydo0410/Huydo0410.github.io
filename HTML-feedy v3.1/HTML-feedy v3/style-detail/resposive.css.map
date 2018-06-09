@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iEAAiE;EAMrD,+DAAe;IACb,aAAa,EAAE,YAAW",
+"sources": ["resposive.scss"],
+"names": [],
+"file": "resposive.css"
+}

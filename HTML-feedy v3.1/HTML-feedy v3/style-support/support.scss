@@ -1,0 +1,50 @@
+.my-reward-Points {
+  padding-bottom: 30px;
+  .fd-left {
+    float: left;
+    width: 50%;
+    .intro-content {
+      padding: 10px 25px !important;
+      .content {
+        text-align: left !important;
+        padding: 0 !important;
+        font-weight: 500 !important;
+      }
+      span {
+        font-size: 14px;
+        &:nth-child(2) {
+          color: red;
+        }
+        i {
+          font-size: 18px;
+          vertical-align: middle;
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+  .fd-right {
+    float: right;
+    width: 50%;
+    padding-top: 15px;
+    .add-new-content {
+      width: 96%;
+      margin: 0 !important;
+      .new-text {
+        width: 100%;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        padding: 0 15px!important;
+        resize: none;
+        border: 0;
+        outline: none;
+        min-height: 120px;
+      }
+    }
+    .text-center {
+      text-align: right;
+      margin-right: 35px;
+      margin-top: 20px;
+    }
+  }
+}

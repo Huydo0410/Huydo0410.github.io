@@ -1,0 +1,198 @@
+.rdw-right .rdwr-top .rdwrt-wrap .rw-left .rate-box{
+  background: url(../../dist/images/r-star3.png) 0 no-repeat;
+  border-bottom: none;
+  background-size: 25px 25px;
+}
+.rdw-right .rdwr-top .rdwrt-wrap .rw-left .checkin-box{
+  background: url(../../dist/images/r-icon-check.png) 0 no-repeat;
+  border-bottom: 2px solid #5e6c7b;
+  filter: grayscale(0);
+}
+
+.rd-checkin {
+  display: flex!important;
+  .rdwrb-top {
+    width: 95%;
+    margin-right: 15px;
+    .rt-left {
+      width: 100%;
+      background: transparent;
+      border: none;
+      .rtl-top {
+        border: 1px solid #ddd;
+        background: #fff;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        img {
+
+        }
+      }
+
+      .rtl-bot {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-top: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-align: right;
+        .rtlb-checkin{
+          margin-right: 20px;
+          margin-top: 15px;
+        }
+        .rtlb-review {
+          line-height: 60px;
+          padding-bottom: 17px;
+          border-radius: 10px;
+          height: auto;
+          width: 75%;
+
+        }
+
+        .rtlb-send {
+
+        }
+
+        .rtlb-per {
+
+          #rating {
+
+          }
+
+          .rtlb-line {
+            width: 44%;
+          }
+
+          #n-rate {
+
+          }
+        }
+
+        .rrm-wrap {
+
+          .rrmw-item {
+            padding-top: 15px!important;
+            .rrmwi-avatar {
+
+              img {
+
+              }
+            }
+
+            .rrmwi-info {
+
+              .name {
+
+              }
+
+              .level {
+
+                img {
+
+                }
+
+                span {
+
+                }
+              }
+            }
+
+            .rrmwi-content {
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .rdwrb-right {
+    width: 71%!important;
+    .rr-info {
+      margin-top: 0!important;
+      .rrvi-title {
+
+        a {
+
+          .ion-ios-information-outline {
+
+          }
+        }
+      }
+
+      label {
+
+      }
+
+      p {
+
+      }
+
+      .rri-if {
+
+        p {
+
+          .rrii-icon {
+
+          }
+
+          span {
+
+          }
+        }
+      }
+
+      .rri-map {
+
+        a {
+
+          img {
+
+          }
+        }
+      }
+    }
+
+    .rr-menu {
+
+      .rrm-menu {
+
+        .video-title {
+
+          a {
+
+            .ion-android-restaurant {
+
+            }
+          }
+
+          .viewMore {
+
+          }
+        }
+
+        .rrmm-list {
+
+          .rrmm-item {
+
+            .content-in {
+
+              .img {
+
+                .img-thumb {
+
+                }
+              }
+            }
+
+            .content-text {
+
+              .video-title {
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

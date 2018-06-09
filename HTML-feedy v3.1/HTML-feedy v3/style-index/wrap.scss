@@ -1,0 +1,20 @@
+@import "responsive";
+@import "made-by-feedy";
+@import "member-receipe";
+@import "news-tip";
+@import "review-restaurant";
+@import "top-chuyen-gia";
+@import "top-member";
+@import "../style-blog/blog";
+@import "../style-support/support";
+
+.list-like{
+  cursor: pointer;
+}
+.chat-popup-footer{
+  .btn-like{
+    img{
+      width: 70%;
+    }
+  }
+}

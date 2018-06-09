@@ -1,0 +1,54 @@
+.rd-video{
+  .rdwrb-top {
+
+    .rt-left {
+
+      .ion-ios-videocam-outline {
+
+      }
+    }
+
+    .rt-right {
+
+      button {
+        color: #3074c1;
+      }
+    }
+  }
+  .rdwrb-bot {
+    width: 100%!important;
+    padding-top: 24px!important;
+    .fd-list-video {
+      box-shadow: none!important;
+      padding: 0;
+      .rb-top {
+        display: flex;
+        .video-title {
+
+          .ion-ios-videocam-outline {
+
+          }
+        }
+
+        .rb-more {
+
+          a {
+
+          }
+        }
+      }
+
+      .list-video-left {
+        width: 103%;
+        overflow: hidden;
+        display: block;
+        li {
+          width: 23%;
+          &:nth-child(4n){
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}

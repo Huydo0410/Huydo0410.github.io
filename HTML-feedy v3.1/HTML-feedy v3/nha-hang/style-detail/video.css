@@ -1,0 +1,13 @@
+.rdwrb-bot {
+  display: block; }
+  .rdwrb-bot .fd-list-video {
+    box-shadow: none !important; }
+    .rdwrb-bot .fd-list-video .rb-top {
+      display: flex; }
+    .rdwrb-bot .fd-list-video .list-video-left {
+      display: block;
+      overflow: hidden; }
+      .rdwrb-bot .fd-list-video .list-video-left:nth-child(4n) {
+        margin-right: 0; }
+
+/*# sourceMappingURL=video.css.map */

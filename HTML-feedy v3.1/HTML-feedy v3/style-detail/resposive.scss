@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1439px) and (min-width: 768px){
+  .menu-left{
+    #mCSB_1{
+      #mCSB_1_container{
+        .fd-logo{
+          a{
+            .mCS_img_loaded{
+              margin-bottom: 0!important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and(max-width: 1024px) and (min-width: 769px){
+  .res-detail-wrap{
+    max-width: 860px!important;
+    overflow: hidden;
+    margin: 15px auto;
+  }
+}

@@ -1,0 +1,488 @@
+a {
+    color: #4367b2;
+}
+
+.highlight {
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.block-comment {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+}
+
+.block-comment form {
+    overflow: hidden;
+}
+
+.block-comment form textarea {
+    resize: none;
+    width: 260px;
+    padding: 3px 5px;
+    height: 44px;
+    background: #fff;
+}
+
+.block-comment form .overflow {
+    border-top: #e3e3e3 solid 1px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.block-comment .form-comment {
+    position: relative;
+    padding: 0px 0px;
+    border: 0px;
+}
+
+.block-comment .form-comment legend {
+    border: #e1eaf1 solid 1px;
+    padding: 2px 8px;
+    background: #FFFFFF;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-weight: bold;
+    color: #292929;
+}
+
+.block-comment .form-comment p {
+    float: left;
+    color: #acacac;
+    font-size: 11px;
+    font-style: italic;
+    margin: 0px;
+    padding: 10px 0px 0px 10px;
+}
+
+.block-comment .form-comment p span {
+    color: #0079BE;
+}
+
+.block-comment .form-comment button, .block-comment .form-comment .button {
+    line-height: 16px;
+    background-color: #4367b2;
+    padding: 8px 25px;
+    margin: 15px 1px 0px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.block-comment .lst-comment .readmore-cm {
+    padding-top: 5px;
+    display: block;
+    padding-left: 0;
+}
+
+.block-comment .form-comment button:hover {
+    background: #4274e5;
+}
+
+.block-comment .lst-comment ul li dl {
+    padding: 5px 0px 0px 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    min-height: 50px;
+}
+
+.relative {
+    position: relative;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.like-container {
+    float: left;
+}
+
+.block-comment .lst-comment ul li ul dl {
+    margin-left: 40px;
+    padding: 5px 0px 0px 0;
+    background: url(../images/border.png) top left repeat-x;
+}
+
+.block-comment .time {
+    padding-left: 15px;
+    color: #b8c0c1;
+    /*background: url(../images/bgd-time.png) 5px 5px no-repeat;*/
+}
+
+.list-select {
+    overflow: hidden;
+    padding: 10px 20px;
+    background: #f2f2f2;
+    text-align: right;
+}
+
+.list-select li {
+    display: inline-block;
+    padding: 0 5px;
+    color: #333;
+}
+
+.list-select li a {
+    color: #333;
+}
+
+.list-select li a:hover, .list-select li.active a {
+    color: #3b5998;
+}
+
+.list-select li:first-child {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.btn-reply {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.btn-like-cm {
+    display: inline-block;
+    padding-left: 12px;
+    font-size: 10px;
+    color: #3b5998;
+    /*background: url(../images/icon-likes.png) 0 3px no-repeat;*/
+}
+
+.btn-like-cm span {
+    color: #7f7f7f;
+    padding-left: 2px;
+}
+
+.readmore-cm {
+    color: #3b5998;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.readmore-cm:hover {
+    text-decoration: underline;
+}
+
+.like_number {
+    font-size: 11px;
+}
+
+.block-comment .form-comment p.warning {
+    font-size: 12px;
+    color: #e32c22;
+    float: left;
+    padding-top: 15px;
+    padding-left: 0;
+    font-style: normal;
+    display: none;
+}
+
+/*list comment*/
+.lst-comment ul li dl dd p {
+    word-wrap: break-word;
+    font-size: 14px;
+    padding: 3px 0;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.lst-comment {
+    width: 100%;
+    padding: 0 5px 10px 5px;
+    color: #6f6f6f;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    line-height: 18px;
+    box-sizing: border-box
+}
+
+.lst-comment strong {
+    color: #212121;
+}
+
+.lst-comment .readmore {
+    color: #0079BE;
+    text-decoration: none;
+    padding-bottom: 6px;
+    display: block;
+}
+
+.lst-comment ul {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lst-comment > ul {
+    border-bottom: solid 1px #ccc;
+}
+
+.lst-comment > ul > li {
+    border-top: solid 1px #ccc;
+    float: left;
+}
+
+.lst-comment > ul > li:first-child {
+    border: none;
+}
+
+.lst-comment ul li {
+    padding: 15px 0 5px 0;
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    text-rendering: geometricPrecision;
+}
+
+.lst-comment ul li ul dl {
+    margin-left: 20px;
+    background: url(../images/border.png) top left repeat-x;
+}
+
+.lst-comment ul li dl {
+}
+
+.lst-comment ul li dl dt {
+    position: absolute;
+    z-index: 4;
+    left: 0px;
+}
+
+.lst-comment ul li dl dd {
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+
+.lst-comment ul li dl dd .top {
+    overflow: hidden;
+}
+
+.lst-comment ul li dl dd em {
+    color: #a0a0a0;
+    font-size: 11px;
+}
+
+.lst-comment ul li dl dd .name {
+    color: #878787;
+    font-weight: bold;
+}
+
+.lst-comment ul li dl dd a:hover.name, .lst-comment ul li dl dd a:hover.reply, .lst-comment ul li dl dd a:hover.like, .lst-comment ul li dl dd a:hover.report {
+    text-decoration: underline;
+    color: #3b5998;
+}
+
+.lst-comment ul li dl dd .reply {
+    color: #3b5998;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.lst-comment ul li dl dd .like, .lst-comment ul li dl dd .unlike {
+    background: url(../images/icon.png) -60px 0 no-repeat;
+    padding-left: 15px;
+    color: #a0a0a0;
+    font-size: 11px;
+}
+
+.lst-comment ul li dl dd .like strong, .lst-comment ul li dl dd .unlike strong {
+    color: #0079BE;
+}
+
+.lst-comment ul li dl dd .report {
+    color: #a0a0a0;
+    font-size: 11px;
+    border-left: #a0a0a0 solid 1px;
+    padding-left: 6px;
+    margin-left: 6px;
+}
+
+.lst-comment .seeall {
+    background: #bdcbd6;
+    height: 15px;
+    float: left;
+    padding-left: 5px;
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.lst-comment a:hover.seeall {
+    color: #4367b2;
+}
+
+.lst-comment .seeall span {
+    background: #bdcbd6;
+    height: 15px;
+    float: left;
+    padding-right: 5px;
+    border-radius: 3px;
+}
+
+.lst-comment .seeall span span {
+    background: #bdcbd6;
+    height: 15px;
+    float: left;
+}
+
+.btn-like-cm span {
+    color: #7f7f7f;
+    padding-left: 2px;
+}
+
+.readmore-cm {
+    color: #4367b2;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.readmore-cm:hover {
+    text-decoration: underline;
+}
+
+.like_number {
+    font-size: 11px;
+}
+
+.block-comment .form-comment p.warning {
+    font-size: 12px;
+    color: #e32c22;
+    float: left;
+    padding-top: 15px;
+    padding-left: 0;
+    font-style: normal;
+    display: none;
+}
+
+.form-comment-in {
+    width: 100%;
+    float: left;
+    background: #efefef;
+    margin: 15px 0px;
+    padding: 15px 20px;
+}
+
+.form-comment-in .avata {
+    width: 118px;
+    height: 118px;
+    border: 1px solid #dcdcdc;
+    float: left;
+    overflow: hidden;
+}
+
+.form-comment-in .avata img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.block-comment .form-comment textarea {
+    float: right;
+    width: 77%;
+    height: 118px;
+    border: 1px solid #dcdcdc;
+    font-size: 12px;
+    padding: 12px;
+}
+
+.block-comment .form-comment .bnt-send {
+    float: left;
+    width: 100%;
+}
+
+.block-comment .form-comment .bnt-send .login-r {
+    line-height: 32px;
+    margin: 15px 1px 0px 20px;
+    font-size: 13px;
+    color: #727272;
+}
+
+.BL-content {
+    width: 90%;
+    float: left;
+}
+
+.BL-content .name {
+    font-size: 15px;
+    font-weight: bold;
+}
+.cm-content{
+    margin-bottom: 0px;
+}
+.list-share li {
+    float: left;
+    margin-left: 15px;
+    width: auto !important;
+    line-height: 14px;
+}
+
+.list-share li a {
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.list-share li a i {
+    font-size: 14px;
+}
+
+.list-share li img {
+    height: 14px;
+    margin-top: -5px;
+}
+
+.cm-content .minimize {
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+}
+
+.BL-Reply {
+    padding-left: 55px;
+    padding-bottom: 10px;
+}
+
+.BL-Reply .BL-content {
+    width: 90%;
+    float: left;
+}
+
+.BL-li, .BL-Reply {
+    float: left;
+    width: 100%;
+}
+
+.BL-li .line {
+    border-bottom: 1px solid #e1e1e1;
+    height: 1px;
+    width: 100%;
+    float: right;
+    margin: 10px 0px;
+}
+.reply-more{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #cc0f00;
+}

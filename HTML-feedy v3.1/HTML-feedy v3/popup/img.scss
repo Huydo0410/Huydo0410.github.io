@@ -1,0 +1,56 @@
+.rlw-post-img{
+  background: #fff;
+  border: 1px solid #e6e9ec;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 75%;
+  display: none;
+  position: absolute;
+  left: 13%;
+  top: 18%;
+  .rlwp-top{
+    .rlwpt-left{
+      width: 20%;
+      border-right: 1px solid #e6e9ec;
+      display: inline-block;
+      padding-left: 20px;
+      padding-top: 13px;
+    }
+    .rlwpt-right{
+      width: 80%;
+    }
+  }
+  .rlwp-wrap{
+    margin-top: 30px;
+    overflow: hidden;
+    display: block;
+    width: 101%;
+    .rlwp-img{
+      width: 32%;
+      float: left;
+      height: 100%;
+      &:nth-child(4n){
+        margin-left: 10px;
+      }
+      &:nth-last-child(1){
+        height: 376px;
+        text-align: center;
+        button{
+          margin-top: 50%;
+          margin-left: 0;
+          color: #3074c1;
+          font-size: 23px;
+          i{
+            font-size: 70px;
+            color: #3074c1;
+          }
+        }
+      }
+      textarea{
+        max-height: 50px;
+        min-width: 100%;
+        resize: none;
+      }
+    }
+  }
+}

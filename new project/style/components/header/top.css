@@ -1,0 +1,9 @@
+.bwh-top {
+  background: #eeeeee;
+  justify-content: space-between;
+  height: 35px;
+  align-items: center; }
+  .bwh-top .bwht-right .bwhtr-phone .bp-number {
+    color: #de3241; }
+
+/*# sourceMappingURL=header-top.css.map */

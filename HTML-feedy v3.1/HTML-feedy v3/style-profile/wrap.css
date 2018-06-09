@@ -1,0 +1,269 @@
+.rpw-top {
+  position: relative;
+  border: 1px solid #dce1e6;
+  overflow: hidden; }
+  .rpw-top .rpwt-cover {
+    width: 100%;
+    height: 320px;
+    object-fit: cover; }
+  .rpw-top .info-acc {
+    display: inline-block;
+    position: absolute;
+    left: 3%;
+    bottom: 10px; }
+    .rpw-top .info-acc .my-avatar {
+      display: table-cell;
+      vertical-align: middle; }
+      .rpw-top .info-acc .my-avatar img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 5px solid white;
+        margin-right: 5px; }
+    .rpw-top .info-acc .text-info {
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 15px; }
+      .rpw-top .info-acc .text-info .name {
+        display: block;
+        font-size: 23px;
+        font-weight: bold;
+        color: white;
+        line-height: 2; }
+      .rpw-top .info-acc .text-info .level {
+        font-size: 15px;
+        color: white; }
+        .rpw-top .info-acc .text-info .level strong {
+          color: #ffbc2c;
+          font-family: UtmAvo;
+          padding-left: 5px;
+          background: url(../dist/images/icon_dolaYelo.png) 37px 3px no-repeat;
+          padding-right: 30px;
+          background-size: 20px; }
+  .rpw-top .edit-tt {
+    position: absolute;
+    right: 20px;
+    bottom: 85px; }
+    .rpw-top .edit-tt .btn-mess {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: #5f98d1;
+      margin-right: 10px; }
+      .rpw-top .edit-tt .btn-mess img {
+        padding-bottom: 3px;
+        padding-left: 1px;
+        width: 18px; }
+    .rpw-top .edit-tt .btn-edit {
+      border: 1px solid #fff;
+      background: transparent;
+      border-radius: 10px;
+      padding: 8px 17px;
+      color: #fff;
+      font-size: 17px;
+      font-family: "Roboto";
+      transition: all 0.35s ease; }
+      .rpw-top .edit-tt .btn-edit:hover {
+        border: 1px solid #3074c1;
+        background: #3074c1; }
+      .rpw-top .edit-tt .btn-edit img {
+        margin-top: -3px; }
+  .rpw-top .rpwt-social {
+    display: flex;
+    padding-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background: #fff; }
+    .rpw-top .rpwt-social div {
+      text-align: center; }
+      .rpw-top .rpwt-social div .number_ {
+        vertical-align: middle;
+        font-size: 18px;
+        font-weight: 600; }
+    .rpw-top .rpwt-social .follow {
+      margin-right: 30px; }
+      .rpw-top .rpwt-social .follow img {
+        width: 20px;
+        padding-bottom: 5px; }
+    .rpw-top .rpwt-social .turn-follow {
+      margin-right: 30px; }
+      .rpw-top .rpwt-social .turn-follow img {
+        width: 20px;
+        padding-bottom: 5px; }
+    .rpw-top .rpwt-social .do-it {
+      margin-right: 30px; }
+      .rpw-top .rpwt-social .do-it img {
+        width: 20px;
+        padding-bottom: 10px; }
+    .rpw-top .rpwt-social .check-in img {
+      padding-bottom: 5px; }
+
+.rpw-bot {
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+  .rpw-bot .rpwb-left {
+    width: 29%;
+    height: 100%; }
+    .rpw-bot .rpwb-left .rr-info {
+      padding: 15px 20px;
+      background: #fff;
+      margin-top: 15px;
+      border: 1px solid #dce1e6;
+      border-radius: 5px; }
+      .rpw-bot .rpwb-left .rr-info .rrvi-title {
+        margin: 0;
+        padding-bottom: 10px; }
+        .rpw-bot .rpwb-left .rr-info .rrvi-title a {
+          color: #5e6c7b;
+          font-size: 18px;
+          font-weight: 600; }
+          .rpw-bot .rpwb-left .rr-info .rrvi-title a .ion-ios-information-outline {
+            font-size: 28px;
+            vertical-align: middle;
+            padding-right: 10px; }
+    .rpw-bot .rpwb-left .rr-recipe {
+      margin-top: 15px;
+      border: 1px solid #dce1e6;
+      border-radius: 5px;
+      background: #fff; }
+      .rpw-bot .rpwb-left .rr-recipe .title_ {
+        margin: 0;
+        padding: 15px;
+        color: #5e6c7b;
+        font-size: 18px;
+        font-weight: 600; }
+        .rpw-bot .rpwb-left .rr-recipe .title_ img {
+          padding-right: 10px;
+          padding-bottom: 10px; }
+      .rpw-bot .rpwb-left .rr-recipe .rrr-wrap .rw-item {
+        display: flex;
+        padding-bottom: 15px;
+        padding-right: 5px; }
+        .rpw-bot .rpwb-left .rr-recipe .rrr-wrap .rw-item .rwi-img {
+          overflow: hidden;
+          width: 50%;
+          padding-right: 10px;
+          padding-left: 10px; }
+          .rpw-bot .rpwb-left .rr-recipe .rrr-wrap .rw-item .rwi-img img {
+            width: 100%;
+            border-radius: 5px; }
+        .rpw-bot .rpwb-left .rr-recipe .rrr-wrap .rw-item .rw-content {
+          width: 50%; }
+          .rpw-bot .rpwb-left .rr-recipe .rrr-wrap .rw-item .rw-content a {
+            font-size: 16px;
+            color: #000;
+            font-weight: 600;
+            transition: all 0.35s ease; }
+            .rpw-bot .rpwb-left .rr-recipe .rrr-wrap .rw-item .rw-content a:hover {
+              color: #337ab7; }
+          .rpw-bot .rpwb-left .rr-recipe .rrr-wrap .rw-item .rw-content button {
+            padding-left: 0;
+            padding-right: 5px; }
+            .rpw-bot .rpwb-left .rr-recipe .rrr-wrap .rw-item .rw-content button .ok {
+              padding-bottom: 5px; }
+            .rpw-bot .rpwb-left .rr-recipe .rrr-wrap .rw-item .rw-content button img {
+              width: 20px;
+              margin-right: 5px;
+              margin-bottom: 0px; }
+    .rpw-bot .rpwb-left .rr-img {
+      margin-top: 15px;
+      border: 1px solid #dce1e6;
+      border-radius: 5px;
+      background: #fff; }
+      .rpw-bot .rpwb-left .rr-img .title_ {
+        margin: 0;
+        padding: 15px;
+        color: #5e6c7b;
+        font-size: 18px;
+        font-weight: 600; }
+        .rpw-bot .rpwb-left .rr-img .title_ img {
+          padding-right: 10px; }
+      .rpw-bot .rpwb-left .rr-img .rrmm-list {
+        overflow: hidden;
+        width: 100%;
+        padding-left: 10px;
+        padding-bottom: 15px; }
+        .rpw-bot .rpwb-left .rr-img .rrmm-list .rrmm-item {
+          width: 31.4%;
+          display: inline-block;
+          float: left;
+          margin-right: 5px;
+          margin-bottom: 9px; }
+          .rpw-bot .rpwb-left .rr-img .rrmm-list .rrmm-item .img .img-thumb {
+            width: 100%; }
+  .rpw-bot .rpwb-center {
+    width: 40%;
+    margin-top: 15px; }
+    .rpw-bot .rpwb-center .news-feed .content-nfeed .content-img {
+      display: flex;
+      justify-content: space-around; }
+      .rpw-bot .rpwb-center .news-feed .content-nfeed .content-img img {
+        padding-right: 5px; }
+    .rpw-bot .rpwb-center .news-feed .list-comment li .info-activity {
+      overflow: hidden;
+      display: flex; }
+      .rpw-bot .rpwb-center .news-feed .list-comment li .info-activity .avatar img {
+        width: 100%; }
+  .rpw-bot .add-new-tabs {
+    margin-top: 15px; }
+  .rpw-bot .rpwb-right {
+    width: 29%;
+    margin-top: 15px;
+    height: 100%; }
+    .rpw-bot .rpwb-right .list-notify {
+      margin-bottom: 15px;
+      background: #fff;
+      border: 1px solid #dce1e6;
+      border-radius: 5px; }
+      .rpw-bot .rpwb-right .list-notify .title_ {
+        margin: 0;
+        padding: 15px;
+        color: #5e6c7b;
+        font-size: 18px;
+        font-weight: 600;
+        border-bottom: 1px solid #d9d9d9; }
+        .rpw-bot .rpwb-right .list-notify .title_ img {
+          padding-right: 10px; }
+      .rpw-bot .rpwb-right .list-notify li:nth-last-child(1) {
+        border-bottom: 0; }
+    .rpw-bot .rpwb-right .you-knowns {
+      margin-top: 15px; }
+      .rpw-bot .rpwb-right .you-knowns .fd-title {
+        padding-left: 20px;
+        padding-right: 20px; }
+        .rpw-bot .rpwb-right .you-knowns .fd-title a {
+          font-size: 16px;
+          font-weight: bold;
+          color: #5e6c7b; }
+          .rpw-bot .rpwb-right .you-knowns .fd-title a img {
+            margin-right: 10px; }
+          .rpw-bot .rpwb-right .you-knowns .fd-title a i {
+            float: right;
+            margin-top: 7px; }
+      .rpw-bot .rpwb-right .you-knowns .list-you-knows li a .btn-follow {
+        font-family: inherit !important; }
+    .rpw-bot .rpwb-right .defaul-box {
+      background-color: white;
+      border-radius: 4px;
+      overflow: hidden;
+      border: 1px solid #dce1e6;
+      width: 100%;
+      box-shadow: none; }
+      .rpw-bot .rpwb-right .defaul-box h3 {
+        margin: 0; }
+
+.res-profile-wrap {
+  max-width: 1170px;
+  margin: 15px auto;
+  overflow: hidden; }
+
+.modal-open {
+  padding-right: 0 !important;
+  overflow: auto; }
+
+.modal {
+  width: 102%; }
+
+/*# sourceMappingURL=wrap.css.map */

@@ -1,0 +1,31 @@
+.rlw-set-time{
+  background: #fff;
+  border: 1px solid #e6e9ec;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 47.666%;
+  display: none;
+  position: absolute;
+  left: 19%;
+  top: 93%;
+  .rlwp-top{
+    .rlwpt-left{
+      padding-top: 9px;
+      i{
+        font-size: 28px;
+        vertical-align: middle;
+      }
+    }
+  }
+  .rlwp-bot-cancel{
+    padding: 5px 25px;
+    background: #fff;
+    color: #8d8d8d;
+    border-radius: 5px;
+    float: right;
+    margin: 15px 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border:1px solid #e1e1e1;
+  }
+}

@@ -8,6 +8,10 @@ body{
 }
 ul{
   margin: auto;
+
+}
+.nav-item{
+  text-decoration: none;
 }
 .active-color{
   color: #de3241;
@@ -67,13 +71,13 @@ font-weight: 500;
   margin: 50px 0;
 }
 .bg-img{
-background-image: url(map.jpg);
+background-image: url(img/map.jpg);
 background-repeat: repeat-y;
 }
 .address{
   font-size: 20px;
   font-weight: 500;
 }
-.col-md-4>p, .col-md-6>p{
-  font-size: 15px;
+.cm-top p, .cm-mid p, .cm-bot p{
+font-size: 15px;
 }

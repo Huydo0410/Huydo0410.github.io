@@ -1,0 +1,228 @@
+.rpw-bot {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  .rpwb-left {
+    width: 29%;
+    height: 100%;
+    .rr-info {
+      padding: 15px 20px;
+      background: #fff;
+      margin-top: 15px;
+      border: 1px solid #dce1e6;
+      border-radius: 5px;
+      .rrvi-title {
+        margin: 0;
+        padding-bottom: 10px;
+        a {
+          color: #5e6c7b;
+          font-size: 18px;
+          font-weight: 600;
+          .ion-ios-information-outline {
+            font-size: 28px;
+            vertical-align: middle;
+            padding-right: 10px;
+          }
+        }
+      }
+
+      p {
+
+      }
+    }
+    .rr-recipe {
+      margin-top: 15px;
+      border: 1px solid #dce1e6;
+      border-radius: 5px;
+      background: #fff;
+      .title_ {
+        margin: 0;
+        padding: 15px;
+        color: #5e6c7b;
+        font-size: 18px;
+        font-weight: 600;
+
+        img {
+          padding-right: 10px;
+          padding-bottom: 10px
+        }
+      }
+      .rrr-wrap {
+        .rw-item {
+          display: flex;
+          padding-bottom: 15px;
+          padding-right: 5px;
+          .rwi-img {
+            overflow: hidden;
+            width: 50%;
+            padding-right: 10px;
+            padding-left: 10px;
+            img {
+              width: 100%;
+              border-radius: 5px;
+            }
+          }
+          .rw-content {
+            width: 50%;
+            a {
+              font-size: 16px;
+              color: #000;
+              font-weight: 600;
+              transition: all 0.35s ease;
+              &:hover {
+                color: #337ab7;
+              }
+            }
+            button {
+              padding-left: 0;
+              padding-right: 5px;
+              .ok {
+                padding-bottom: 5px;
+              }
+              img {
+                width: 20px;
+                margin-right: 5px;
+                margin-bottom: 0px;
+              }
+            }
+
+          }
+        }
+      }
+    }
+    .rr-img {
+      margin-top: 15px;
+      border: 1px solid #dce1e6;
+      border-radius: 5px;
+      background: #fff;
+      .title_ {
+        margin: 0;
+        padding: 15px;
+        color: #5e6c7b;
+        font-size: 18px;
+        font-weight: 600;
+        img{
+          padding-right: 10px;
+        }
+      }
+      .rrmm-list {
+        overflow: hidden;
+        width: 100%;
+        padding-left: 10px;
+        padding-bottom: 15px;
+        .rrmm-item {
+          width: 31.4%;
+          display: inline-block;
+          float: left;
+          margin-right: 5px;
+          margin-bottom: 9px;
+          .img {
+            .img-thumb {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .rpwb-center {
+    width: 40%;
+    margin-top: 15px;
+    .news-feed {
+      .content-nfeed {
+        .content-img {
+          display: flex;
+          justify-content: space-around;
+          img {
+            padding-right: 5px;
+          }
+        }
+      }
+      .list-comment {
+        li {
+          .info-activity {
+            overflow: hidden;
+            display: flex;
+            .avatar {
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+  .add-new-tabs{
+    margin-top: 15px;
+  }
+  .rpwb-right {
+    width: 29%;
+    margin-top: 15px;
+    height: 100%;
+    .list-notify {
+      margin-bottom: 15px;
+      background: #fff;
+      border: 1px solid #dce1e6;
+      border-radius: 5px;
+      .title_ {
+        margin: 0;
+        padding: 15px;
+        color: #5e6c7b;
+        font-size: 18px;
+        font-weight: 600;
+        border-bottom: 1px solid #d9d9d9;
+        img {
+          padding-right: 10px;
+        }
+      }
+      li {
+        &:nth-last-child(1) {
+          border-bottom: 0;
+        }
+      }
+
+    }
+    .you-knowns {
+      margin-top: 15px;
+      .fd-title {
+        padding-left: 20px;
+        padding-right: 20px;
+        a {
+          font-size: 16px;
+          font-weight: bold;
+          color: #5e6c7b;
+          img {
+            margin-right: 10px;
+          }
+          i {
+            float: right;
+            margin-top: 7px;
+          }
+        }
+      }
+      .list-you-knows {
+        li {
+          a {
+            .btn-follow {
+              font-family: inherit!important;
+            }
+          }
+        }
+      }
+    }
+    .defaul-box {
+      background-color: white;
+      border-radius: 4px;
+      overflow: hidden;
+      border: 1px solid #dce1e6;
+      width: 100%;
+      box-shadow: none;
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+}

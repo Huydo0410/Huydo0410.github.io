@@ -1,0 +1,95 @@
+.bwsc-newbook {
+  max-width: 1200px;
+  margin: auto!important;
+  .bn-title {
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 3.235em;
+    padding-top: 20px;
+    font-family: "Playfair Display", serif;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 8%;
+      display: block;
+      border-top: 1px solid #222222;
+      height: 0;
+      min-width: 2em;
+      bottom: 0;
+      left: 46%;
+      em {
+
+      }
+    }
+  }
+
+    .bn-menu {
+      justify-content: space-around;
+      width: 50%;
+      margin: auto !important;
+      padding: 50px 0;
+      .bn-new {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
+      .bn-coming {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
+      .bn-seller {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
+      .bn-award {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      .bnn-tablink{
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+
+  .bn-wrap {
+    text-align: center;
+    overflow: hidden;
+    .dw-img {
+      float: left;
+      width: 25%;
+      .bwi-img {
+        width: 60%!important;
+
+      }
+      .bwi-author {
+        padding-bottom: 20px;
+      }
+
+      .bwi-cost {
+        color: #de3241;
+      }
+    }
+  }
+  .bn-discover{
+    text-align: center;
+    margin: 85px!important;
+    .bnd-link{
+
+      background: black;
+      padding: 15px 20px;
+      border-radius: 5px;
+      color: white;
+      text-transform: uppercase;
+      &:hover{
+        background: white;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+    }
+  }
+}

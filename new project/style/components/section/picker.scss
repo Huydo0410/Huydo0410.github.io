@@ -1,0 +1,101 @@
+.bwsc-picker {
+  .bp-wrap {
+    max-width: 1200px;
+    margin: auto!important;
+    .bpw-head {
+      .bpwh-title {
+        padding: 50px 0;
+        font-family: "Playfair Display", serif;
+        font-size: 2.647em;
+        text-align: center;
+        position: relative;
+        &::after{
+          position: absolute;
+          content: '';
+          width: 8%;
+          height: 0;
+          border-top: 1px solid #222;
+          min-width: 1px;
+          bottom: 30px;
+          left: 46%;
+        }
+        em {
+
+        }
+      }
+
+      .bpwh-wrap {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        .bpwhw-item {
+          width: 15%;
+          .bi-img {
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .bi-content {
+            line-height: 1.5em;
+            padding-top: 15px;
+            .bic-name {
+              font-family: 'Playfair Display';
+              font-weight: 700;
+              font-size: 20px;
+              text-transform: capitalize;
+              padding-bottom: 10px;
+              a {
+                color: black;
+                &:hover{
+                  color: #de3241;
+                }
+              }
+            }
+
+            .bic-author {
+              color: #797979;
+            }
+
+            .bic-rate {
+              color: #797979;
+              filter: grayscale(1);
+              &:hover{
+                color: #de3241;
+                filter: grayscale(0);
+                transition: all 0.3s ease;
+                cursor: pointer;
+              }
+              .fa {
+
+              }
+            }
+
+            .bic-review {
+
+            }
+          }
+        }
+      }
+    }
+
+    .bpw-foot {
+      padding: 85px 0;
+      text-align: center;
+      a {
+        font-size: 18px;
+        padding: 10px 30px;
+        background: #000;
+        color: #eeeeee;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-transform: uppercase;
+        &:hover{
+          color: black;
+          background: transparent;
+        }
+      }
+    }
+  }
+}

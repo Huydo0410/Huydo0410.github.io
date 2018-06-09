@@ -1,0 +1,36 @@
+.rd-menu{
+  width: 102.5%;
+}
+.rdwrb-bot {
+
+  .rrmm-list {
+      width: 100%;
+    .rrmm-item {
+        width: 23%;
+        float: left;
+        margin: 0 17px 40px 0;
+      &:nth-child(4n){
+          margin-right: 0;
+      }
+      .img {
+          display: block;
+          padding-bottom: 16px;
+        .img-thumb {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+      }
+      .content-text {
+
+        .video-title {
+            color: #000000;
+            text-transform: capitalize;
+            font-size: 14px;
+            font-weight: 600;
+        }
+      }
+    }
+  }
+}
+

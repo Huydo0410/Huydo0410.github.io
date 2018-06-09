@@ -1,0 +1,82 @@
+@media only screen and (max-width: 374px) and (min-width: 320px){
+  .fwc-top{
+    display: block;
+    .fwct-left{
+      width: 100%;
+    }
+    .fwct-right{
+      width: 100%;
+      padding: 10px 100px;
+      .fwctr-title{
+        font-size: 60px;
+      }
+      .fwctr-rate{
+        font-size: 60px;
+      }
+      .fwctr-content{
+        font-size: 48px;
+        padding-bottom: 45px;
+      }
+      .fwctr-wrap{
+
+        .fwctr-social{
+          padding-bottom: 15px;
+          .fs-like{
+            font-size: 38px;
+          }
+          .fs-rank{
+            font-size: 38px;
+          }
+          .fs-checkin{
+            font-size: 38px;
+          }
+        }
+      }
+      .fwctr-bot{
+        display: block;
+        .fb-left{
+          padding-bottom: 50px;
+          .fbl-address{
+            font-size: 38px;
+            line-height: 38px;
+            padding-bottom: 30px;
+          }
+          .fbl-time{
+            font-size: 38px;
+          }
+        }
+        .fb-right{
+          padding-bottom: 100px;
+          .fbr-cost{
+            font-size: 38px;
+            padding-bottom: 30px;
+            .fbrc-cost{
+
+            }
+
+
+          }
+          .fbr-contact{
+            font-size: 38px;
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1439px) and (min-width: 768px){
+  .menu-left{
+    #mCSB_1{
+      #mCSB_1_container{
+        .fd-logo{
+          a{
+            .mCS_img_loaded{
+              margin-bottom: 0!important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

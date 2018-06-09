@@ -1,0 +1,45 @@
+.bwsc-hot-blog {
+  position: relative;
+  overflow: hidden; }
+  .bwsc-hot-blog .bhbw-img {
+    width: 100%; }
+  .bwsc-hot-blog .bhb-wrap {
+    max-width: 1200px;
+    margin: auto !important; }
+    .bwsc-hot-blog .bhb-wrap .bhb-content {
+      position: absolute;
+      right: 35px;
+      top: 30%; }
+      .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-title {
+        font-family: "Playfair Display", serif;
+        font-size: 50px;
+        line-height: 1.5;
+        color: #eeeeee; }
+        .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-title::after {
+          position: absolute;
+          content: '';
+          width: 20%;
+          height: 0;
+          border-top: 1px solid #eeeeee;
+          min-width: 1px;
+          right: 0; }
+      .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-center {
+        padding: 20px 0;
+        text-align: right;
+        line-height: 1.5;
+        font-family: 'Playfair Display';
+        font-size: 18px;
+        color: #eeeeee; }
+      .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-bot {
+        text-align: right; }
+        .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-bot a {
+          padding: 10px 20px;
+          border: 1px solid black;
+          background: black;
+          color: white;
+          border-radius: 5px; }
+          .bwsc-hot-blog .bhb-wrap .bhb-content .bhbc-bot a:hover {
+            background: transparent;
+            color: #eeeeee; }
+
+/*# sourceMappingURL=hot-blog.css.map */

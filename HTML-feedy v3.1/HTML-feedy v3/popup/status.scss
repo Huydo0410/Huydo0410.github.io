@@ -1,0 +1,169 @@
+.rdw-right{
+
+}
+.rdwrb-left{
+  width: 59%;
+
+}
+.rdwr-bot{
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.rlw-post-new{
+  background: #fff;
+  border: 1px solid #e6e9ec;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 47.666%;
+  display: none;
+  position: absolute;
+  left: 19%;
+  top: 93%;
+}
+.rlwp-top{
+  display: flex;
+  height: 50px;
+  position: relative;
+}
+.rlwpt-left{
+  width: 25%;
+  border-right: 1px solid #e6e9ec;
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.ion-ios-compose-outline{
+  font-size: 30px;
+  vertical-align: middle;
+}
+.rlwpt-right{
+  width: 75%;
+  border-bottom: 1px solid #e6e9ec;
+}
+.rlwp-mid{
+  padding: 10px 0 10px 20px;
+
+}
+.rlwpm-ava{
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.rlwpm-ipt{
+  width: 82.5%;
+  line-height: 40px;
+  padding: 0 0 0 15px;
+  border: none;
+  outline: none;
+}
+.rlwpm-btn{
+  vertical-align: middle;
+  background: url(../dist/images/icon23.png) 0 no-repeat;
+  height: 25px;
+  width: 25px;
+}
+.rlwp-bot{
+  padding: 5px 25px;
+  background: #3074c1;
+  color: #eeeeee;
+  border-radius: 5px;
+  float: right;
+  margin: 15px 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.rlwp-wrap{
+  display: flex;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #dddddd;
+  .rlwp-img{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.35s ease;
+    &:nth-last-child(1){
+      border: 1px dashed #dddddd;
+    }
+    &:nth-child(1){
+      margin-left: 10px;
+    }
+    &:hover i{
+      display: block;
+
+    }
+    .ion-ios-close-empty{
+      font-size: 16px;
+      position: absolute;
+      top: 7px;
+      right: 4px;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background: #B4B49C;
+      text-align: center;
+      color: #fff;
+      display: none;
+      cursor: pointer;
+
+    }
+    .ion-android-create{
+      font-size: 15px;
+      position: absolute;
+      top: 6px;
+      right: 30px;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border-radius: 50%;
+      background: #B4B49C;
+      color: #fff;
+      display: none;
+      cursor: pointer;
+    }
+    img{
+      max-width: 100%;
+    }
+    button{
+      display: inline-block;
+      margin-top: 30px;
+      margin-left: 30px;
+      background: transparent;
+      border: 0;
+      .ion-plus{
+        font-size: 28px;
+        color: #dddddd;
+      }
+    }
+  }
+}
+.rlwp-img-post{
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  .rlwpi-add{
+    background: url("../dist/images/icon23.png") 0 no-repeat;
+    padding-left: 35px;
+    line-height: 23px;
+  }
+  .rlwpi-post{
+    .ion-ios-alarm-outline{
+      font-size: 30px;
+      vertical-align: middle;
+      padding-right: 5px;
+    }
+  }
+}
+.rlwpt-right{
+  .click-close{
+    position: absolute;
+    top: 15px;
+    right: 3%;
+    cursor: pointer;
+  }
+}
+button{
+  background: transparent;
+  border: 0;
+}

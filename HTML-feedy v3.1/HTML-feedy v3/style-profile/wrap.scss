@@ -1,0 +1,14 @@
+@import "top";
+@import "bot";
+.res-profile-wrap{
+  max-width: 1170px;
+  margin: 15px auto;
+  overflow: hidden;
+}
+.modal-open{
+  padding-right: 0!important;
+  overflow: auto;
+}
+.modal{
+  width: 102%;
+}

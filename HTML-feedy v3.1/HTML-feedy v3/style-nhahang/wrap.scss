@@ -1,0 +1,11 @@
+@import "content";
+@import "responsive";
+
+@media (max-width: 1379px){
+  .fd-wrapper .menu-left .fd-logo a {
+    padding: 6px 18px;
+  }
+}
+.fdcb-wrap{
+  width: 100%;
+}

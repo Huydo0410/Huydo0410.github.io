@@ -1,0 +1,102 @@
+.bwh-top {
+  background: #eeeeee;
+  overflow: hidden;
+  .bt-wrap{
+    margin: auto!important;
+    max-width: 1200px;
+    justify-content: space-between;
+    height: 35px;
+    align-items: center;
+    .bwht-left {
+
+    }
+
+    .bwht-right {
+
+      .bwhtr-register {
+        padding: 0 10px;
+        a {
+          color: #232a34;
+          &:hover{
+            color: #de3241;
+
+          }
+        }
+      }
+
+      .bwhtr-login {
+        padding: 0 10px;
+        a {
+          color: #232a34;
+          &:hover{
+            color: #de3241;
+
+          }
+        }
+      }
+
+      .bwhtr-fb {
+        padding: 0 5px;
+        a {
+          color: #232a34;
+          &:hover{
+            color: #de3241;
+
+          }
+          .fa {
+
+          }
+        }
+      }
+
+      .bwhtr-tw {
+        padding: 0 5px;
+        a {
+          color: #232a34;
+          &:hover{
+            color: #de3241;
+
+          }
+          .fa {
+
+          }
+        }
+      }
+
+      .bwhtr-ins {
+        padding: 0 5px;
+        a {
+          color: #232a34;
+          &:hover{
+            color: #de3241;
+
+          }
+          .fa {
+
+          }
+        }
+      }
+
+      .bwhtr-lin {
+        padding: 0 5px;
+        a {
+          color: #232a34;
+          &:hover{
+            color: #de3241;
+
+          }
+          .fa {
+
+          }
+        }
+      }
+
+      .bwhtr-phone {
+        .bp-number{
+          color: #de3241;
+        }
+      }
+    }
+  }
+
+}

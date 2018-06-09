@@ -1,0 +1,41 @@
+.my-reward-Points {
+  padding-bottom: 30px; }
+  .my-reward-Points .fd-left {
+    float: left;
+    width: 50%; }
+    .my-reward-Points .fd-left .intro-content {
+      padding: 10px 25px !important; }
+      .my-reward-Points .fd-left .intro-content .content {
+        text-align: left !important;
+        padding: 0 !important;
+        font-weight: 500 !important; }
+      .my-reward-Points .fd-left .intro-content span {
+        font-size: 14px; }
+        .my-reward-Points .fd-left .intro-content span:nth-child(2) {
+          color: red; }
+        .my-reward-Points .fd-left .intro-content span i {
+          font-size: 18px;
+          vertical-align: middle;
+          padding-right: 5px; }
+  .my-reward-Points .fd-right {
+    float: right;
+    width: 50%;
+    padding-top: 10px; }
+    .my-reward-Points .fd-right .add-new-content {
+      width: 96%;
+      margin: 0 !important; }
+      .my-reward-Points .fd-right .add-new-content .new-text {
+        width: 100%;
+        border-bottom-left-radius: 6px;
+        border-top-right-radius: 6px;
+        padding: 0 15px !important;
+        resize: none;
+        border: 0;
+        outline: none;
+        min-height: 120px; }
+    .my-reward-Points .fd-right .text-center {
+      text-align: right;
+      margin-right: 35px;
+      margin-top: 20px; }
+
+/*# sourceMappingURL=support.css.map */

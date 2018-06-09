@@ -1,0 +1,255 @@
+.fwc-top {
+  display: flex;
+  border: 1px solid #dce1e6;
+  border-radius: 5px;
+  .fwct-left {
+    width: 50%;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .fwct-right {
+    width: 50%;
+    padding: 20px 37px 65px 25px;
+    background: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    .fwctr-title {
+      font-size: 25px;
+      font-weight: bold;
+      text-transform: capitalize;
+      .ft-link{
+        color: #3f4357;
+        transition: all 0.35s ease;
+        &:hover{
+          color: #3074c1;
+        }
+      }
+    }
+
+    .fwctr-rate {
+
+      img {
+
+      }
+    }
+
+    .fwctr-content {
+      padding: 10px 0 20px 0;
+    }
+    .fwctr-wrap{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #dce1e6;
+      .fwctr-social {
+
+        .fs-like {
+          font-size: 14px;
+          color: #3f3f3f;
+          line-height: 26px;
+          background: url("../dist/images/iconLike-26-no.png") 0 no-repeat;
+          padding-left: 35px;
+          transition: all 0.35s ease;
+          -moz-transition: all 0.35s ease;
+          &:hover{
+            background: url("../dist/images/iconLike-26.png") 0 no-repeat;
+          }
+          //span {
+          //  background: url("../dist/images/iconLike-26-no.png") center no-repeat;
+          //  float: left;
+          //  width: 27px;
+          //  height: 26px;
+          //  margin-right: 8px;
+          //  transition: all 0.35s ease;
+          //  &:hover{
+          //      background: url("../dist/images/iconLike-26.png") center no-repeat;
+          //  }
+          //}
+        }
+
+        .fs-rank {
+          font-size: 14px;
+          color: #3f3f3f;
+          line-height: 26px;
+          padding-left: 35px;
+          background: url("../dist/images/r-icon-rank.png") 0 no-repeat;
+          filter: grayscale(1);
+          transition: all 0.35s ease;
+          -moz-transition: all 0.35s ease;
+          &:hover{
+            background: url("../dist/images/r-icon-rank.png") 0 no-repeat;
+            filter: grayscale(0);
+          }
+          //span {
+          //  background: url("../dist/images/r-icon-rank.png") center no-repeat;
+          //  filter: grayscale(1);
+          //  float: left;
+          //  width: 27px;
+          //  height: 26px;
+          //  margin-right: 8px;
+          //  transition: all 0.35s ease;
+          //  &:hover{
+          //    background: url("../dist/images/r-icon-rank.png") center no-repeat;
+          //    filter: grayscale(0);
+          //  }
+          //}
+        }
+
+        .fs-checkin {
+          font-size: 14px;
+          color: #3f3f3f;
+          line-height: 26px;
+          padding-left: 33px;
+          background: url("../dist/images/r-icon-check-no.png") 0 no-repeat;
+          filter: grayscale(1);
+          transition: all 0.35s ease;
+          -moz-transition: all 0.35s ease;
+          &:hover{
+            background: url("../dist/images/r-icon-check-no.png") 0 no-repeat;
+            filter: grayscale(0);
+          }
+          //span {
+          //  background: url("../dist/images/r-icon-check-no.png") center no-repeat;
+          //  float: left;
+          //  width: 27px;
+          //  height: 26px;
+          //  margin-right: 8px;
+          //  transition: all 0.35s ease;
+          //  filter: grayscale(1);
+          //  &:hover{
+          //    //background: url("../dist/images/r-icon-check.png") center no-repeat;
+          //    filter: grayscale(0);
+          //  }
+          //}
+        }
+      }
+
+      .fwctr-share_save {
+
+        .fss-share {
+          padding: 0 35px 0 0;
+          background: url("../dist/images/iconLuuto.png") 0 no-repeat;
+          width: 27px;
+          height: 26px;
+          transition: all 0.35s ease;
+          -moz-transition: all 0.35s ease;
+          &:hover{
+            background: url("../dist/images/iconLuuto-hover.png") 0 no-repeat;
+          }
+          //span {
+          //  background: url("../dist/images/iconLuuto.png") 0px no-repeat;
+          //  float: left;
+          //  width: 27px;
+          //  height: 26px;
+          //  transition: all 0.35s ease;
+          //  &:hover{
+          //    background: url("../dist/images/iconLuuto-hover.png") center no-repeat;
+          //  }
+          //}
+        }
+
+        .fss-save {
+          padding: 0!important;
+          transition: all 0.35s ease;
+          width: 27px;
+          height: 26px;
+          background: url("../dist/images/iconShare.png") center no-repeat;
+          transition: all 0.35s ease;
+          -moz-transition: all 0.35s ease;
+          &:hover{
+            background: url("../dist/images/iconShare-hover.png") center no-repeat;
+          }
+          //span {
+          //  background: url("../dist/images/iconShare.png") center no-repeat;
+          //  float: left;
+          //  width: 27px;
+          //  height: 26px;
+          //  transition: all 0.35s ease;
+          //  &:hover{
+          //    background: url("../dist/images/iconShare-hover.png") center no-repeat;
+          //  }
+          //}
+        }
+      }
+    }
+
+
+    .fwctr-bot {
+      display: flex;
+      padding-top: 25px;
+      .fb-left {
+        max-width: 65%;
+        .fbl-address {
+          background: url("../dist/images/r-icon-pin.png") 0 2px no-repeat;
+          padding-left: 40px;
+          line-height: 17px;
+          padding-bottom: 8px;
+        }
+
+        .fbl-time {
+          background: url("../dist/images/r-icon-time.png") 0 2px no-repeat;
+          padding-left: 40px;
+          line-height: 32px;
+          .fblt-open {
+            color: #3f4357;
+            font-weight: 700;
+          }
+        }
+      }
+
+      .fb-right {
+
+        .fbr-cost {
+          background: url("../dist/images/r-icon-price.png") 0 2px no-repeat;
+          padding-left: 40px;
+          line-height: 33px;
+          .fbrc-cost {
+            color: #3f4357;
+            font-weight: 700;
+          }
+        }
+
+        .fbr-contact {
+          background: url("../dist/images/r-icon-phone.png") 0 2px no-repeat;
+          padding-left: 40px;
+          line-height: 33px;
+          .fbrc-phone {
+            color: #3f4357;
+            font-weight: 700;
+          }
+        }
+
+        .fbr-map {
+          background: #3073c1 !important;
+          color: #fff !important;
+          text-transform: none !important;
+          font-size: 14px !important;
+          text-align: center !important;
+          border-radius: 4px;
+          padding: 5px 15px !important;
+          border: 1px solid #3073c1 !important;
+          margin-left: 35px;
+          transition: all 0.35s ease;
+          &:hover{
+            background: #fff!important;
+            color: #3073c1 !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn-custom-h{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 13px;
+  color: #919191;
+  padding: 0 28px 0px 0px;
+  line-height: 20px;
+}
